@@ -10,9 +10,9 @@ I may or may not post my transcripts here.
 
 ## Contributing
 
-If there is anything you want to add, fortk the repo and hand in your PR :)
+If there is anything you want to add, fork the repo and hand in your PR :)
 
-## License
+## Licens
 
 CC BY 4.0
 
