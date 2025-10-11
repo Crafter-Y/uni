@@ -1,0 +1,12 @@
+{
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.intellisense.unimathsymbols.enabled": true,
+    "latex-workshop.hover.preview.enabled": true,
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+    "markdown-preview-enhanced.liveUpdate": true
+}
