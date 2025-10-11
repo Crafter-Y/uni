@@ -8,6 +8,10 @@ I may or may not post my transcripts here.
 
 - [11-10-2025.md](/ka-maths-pre-8/11-10-2025.md)
 
+## Contributing
+
+If there is anything you want to add, fortk the repo and hand in your PR :)
+
 ## License
 
 CC BY 4.0
