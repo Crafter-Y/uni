@@ -6,8 +6,9 @@ I may or may not post my transcripts here.
 
 ### KA-T25 Vorkurs Mathe
 
-- [11-10-2025.md](/ka-maths-pre-8/11-10-2025.md)
-- [25-10-2025.md](/ka-maths-pre-8/25-10-2025.md)
+- [2025-10-11.md](/ka-maths-pre-8/2025-10-11.md)
+- [2025-10-25.md](/ka-maths-pre-8/2025-10-25.md)
+- [2025-11-08.md](/ka-maths-pre-8/2025-11-08.md)
 
 ## Contributing
 
