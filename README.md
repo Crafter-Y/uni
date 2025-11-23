@@ -15,7 +15,11 @@ I may or may not post my transcripts here.
 
 If there is anything you want to add, fork the repo and hand in your PR :)
 
-## Licens
+## Copyright
+
+Attributions for external Material, see [COPYRIGHT.md](./COPYRIGHT.md)
+
+## License
 
 CC BY 4.0
 
