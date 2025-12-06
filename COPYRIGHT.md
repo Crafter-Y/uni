@@ -8,3 +8,4 @@ Explicit permission to share the following files was given:
 - [DHBW Mathe Vorkurs Gleichungen mit Lösungen.pdf](./external/DHBW%20Mathe%20Vorkurs%20Gleichungen%20mit%20Lösungen.pdf)
 - [Betragsungleichung.pdf](./external/Betragsungleichung.pdf)
 - [Trigonometrische Gleichungen.pdf](./external/Trigonometrische%20Gleichungen.pdf)
+- [Aussagenlogik.pdf](./external/Aussagenlogik.pdf)

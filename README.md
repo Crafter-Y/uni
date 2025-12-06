@@ -10,6 +10,7 @@ I may or may not post my transcripts here.
 - [2025-10-25.md](/ka-maths-pre-8/2025-10-25.md)
 - [2025-11-08.md](/ka-maths-pre-8/2025-11-08.md)
 - [2025-11-22.md](/ka-maths-pre-8/2025-11-22.md)
+- [2025-12-06.md](/ka-maths-pre-8/2025-12-06.md)
 
 ## Contributing
 
@@ -17,7 +18,7 @@ If there is anything you want to add, fork the repo and hand in your PR :)
 
 ## Copyright
 
-Attributions for external Material, see [COPYRIGHT.md](./COPYRIGHT.md)
+Attributions for external material, see [COPYRIGHT.md](./COPYRIGHT.md)
 
 ## License
 

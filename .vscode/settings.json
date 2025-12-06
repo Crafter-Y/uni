@@ -5,7 +5,9 @@
     "[markdown]": {
         "editor.quickSuggestions": {
             "strings": true
-        }
+        },
+         "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.formatOnSave": true
     },
     "markdown-preview-enhanced.mathRenderingOption": "MathJax",
     "markdown-preview-enhanced.liveUpdate": true
