@@ -12,9 +12,13 @@ I may or may not post my transcripts here.
 - [2025-11-22.md](/ka-maths-pre-8/2025-11-22.md)
 - [2025-12-06.md](/ka-maths-pre-8/2025-12-06.md)
 
-### KA-T25 Webengineering
+### KA-T25B4 Webengineering
 
-- [2025-01-07.md](./ka-webengineering-1/2025-01-07/2025-01-07.md)
+- [2025-01-07.md](./ka-tinf25b4-webengineering/2025-01-07/2025-01-07.md)
+
+### KA-T25B4 Linear Algebra
+
+- [2025-01-07.md](./ka-tinf25b4-linear-algebra/2025-01-07.md)
 
 ## Contributing
 
