@@ -2,6 +2,7 @@
     "recommendations": [
         "shd101wyy.markdown-preview-enhanced",
         "james-yu.latex-workshop",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "yzane.markdown-pdf"
     ],
 }

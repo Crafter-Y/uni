@@ -20,6 +20,12 @@ I may or may not post my transcripts here.
 
 - [2025-01-07.md](./ka-tinf25b4-linear-algebra/2025-01-07.md)
 
+## Project setup
+
+Install the recommended extensions to have the full developer experience with the tooling.
+
+To enable math equasions in pdf exports, follow this guide: https://github.com/yzane/vscode-markdown-pdf/issues/21#issuecomment-557603160
+
 ## Contributing
 
 If there is anything you want to add, fork the repo and hand in your PR :)
