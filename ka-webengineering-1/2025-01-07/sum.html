@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Summenformel</title>
+</head>
+<body>
+    <style>
+        .sigma {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .ni {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .i {
+           font-size: 24px;
+           display: flex; 
+           align-items: center;
+           margin-left: 2px;
+        }
+
+        .frac {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 2px;
+        }
+
+        .hr {
+            background-color: black;
+            height: 2px;
+            width: 100%
+        }
+    </style>
+    <div style="display: flex">
+       <span class="sigma">&Sigma;</span>
+       <div class="ni"><span>n</span><span>i = 0</span></div>
+       <span class="i">i=</span>
+       <div class="frac">
+            <span>n * (n+1)</span>
+            <div class="hr"></div>
+            <span>2</span>
+       </div>
+    </div>
+</body>
+</html>

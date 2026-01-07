@@ -12,6 +12,10 @@ I may or may not post my transcripts here.
 - [2025-11-22.md](/ka-maths-pre-8/2025-11-22.md)
 - [2025-12-06.md](/ka-maths-pre-8/2025-12-06.md)
 
+### KA-T25 Webengineering
+
+- [2025-01-07.md](./ka-webengineering-1/2025-01-07/2025-01-07.md)
+
 ## Contributing
 
 If there is anything you want to add, fork the repo and hand in your PR :)
