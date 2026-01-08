@@ -16,13 +16,17 @@ I may or may not post my transcripts here.
 
 - [2025-01-07.md](./ka-tinf25b4-webengineering/2026-01-07/2026-01-07.md)
 
-### KA-T25B4 Linear Algebra
+### KA-T25B4 Lineare Algebra
 
 - [2025-01-07.md](./ka-tinf25b4-linear-algebra/2026-01-07.md)
 
 ### KA-T25B4 Digitaltechnologie
 
 - [2025-01-07.md](./ka-tinf25b4-digital-technology/2026-01-08.md)
+
+### KA-T25B4 Projektmanagement
+
+- [2025-01-07.md](./ka-tinf25b4-project-management/2026-01-08.md)
 
 ## Project setup
 
