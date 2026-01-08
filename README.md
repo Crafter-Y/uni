@@ -34,6 +34,10 @@ Install the recommended extensions to have the full developer experience with th
 
 To enable math equasions in pdf exports, follow this guide: https://github.com/yzane/vscode-markdown-pdf/issues/21#issuecomment-557603160
 
+To enable mermaid graphs in pdf exports, apply this fix: https://github.com/yzane/vscode-markdown-pdf/issues/342#issuecomment-2896652277
+
+Mermaid (graphs) look a bit off here and there: https://github.com/mermaid-js/mermaid/issues/7260
+
 ## Contributing
 
 If there is anything you want to add, fork the repo and hand in your PR :)

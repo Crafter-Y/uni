@@ -9,3 +9,9 @@ Explicit permission to share the following files was given:
 - [Betragsungleichung.pdf](./external/Betragsungleichung.pdf)
 - [Trigonometrische Gleichungen.pdf](./external/Trigonometrische%20Gleichungen.pdf)
 - [Aussagenlogik.pdf](./external/Aussagenlogik.pdf)
+
+© Dr. Arno Mielke @ DHBW Karlsruhe
+
+Publishing entire collections of his slides was explicitly denied. Although "small portions" as references would be okay:
+
+- [vorgehensmodelle.pdf](./external/vorgehensmodelle.png)
