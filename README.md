@@ -28,6 +28,11 @@ I may or may not post my transcripts here.
 
 - [2026-01-08.md](./ka-tinf25b4-project-management/2026-01-08.md)
 
+### KA-T25B4 Intercultural Communication
+
+- [2026-01-09.md](./ka-tinf25b4-intercultural-communication/2026-01-09.md)
+
+
 ## Project setup
 
 Install the recommended extensions to have the full developer experience with the tooling.
