@@ -15,3 +15,9 @@ Explicit permission to share the following files was given:
 Publishing entire collections of his slides was explicitly denied. Although "small portions" as references would be okay:
 
 - [vorgehensmodelle.pdf](./external/vorgehensmodelle.png)
+
+© Prof. Dr. Jörn Eisenbiegler @ DHBW Karlsruhe
+
+Explicit permission to share the following files was given:
+
+- [Webengineering I - 1 HTML.pdf](./external/Webengineering%20I%20-%201%20HTML.pdf)
