@@ -32,6 +32,9 @@ I may or may not post my transcripts here.
 
 - [2026-01-09.md](./ka-tinf25b4-intercultural-communication/2026-01-09.md)
 
+### KA-T25B4 Programmierung
+
+- [2026-01-09.md](./ka-tinf25b4-programming/2026-01-12/2026-01-12.md)
 
 ## Project setup
 
