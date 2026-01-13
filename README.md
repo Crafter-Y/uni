@@ -37,6 +37,10 @@ I may or may not post my transcripts here.
 
 - [2026-01-09.md](./ka-tinf25b4-programming/2026-01-12/2026-01-12.md)
 
+### KA-T25B4 Theoretische Informatik
+
+- [2026-01-09.md](./ka-tinf25b4-theoretical-computer-science/2026-01-13.md)
+
 ## Project setup
 
 Install the recommended extensions to have the full developer experience with the tooling.
