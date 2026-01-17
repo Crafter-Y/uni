@@ -42,14 +42,11 @@ I may or may not post my transcripts here.
 ### KA-T25B4 Theoretische Informatik
 
 - [2026-01-09.md](./ka-tinf25b4-theoretical-computer-science/2026-01-13.md)
+- [Übungsblatt 1](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%201.md)
 
 ## Project setup
 
 Install the recommended extensions to have the full developer experience with the tooling.
-
-To enable math equasions in pdf exports, follow this guide: https://github.com/yzane/vscode-markdown-pdf/issues/21#issuecomment-557603160
-
-To enable mermaid graphs in pdf exports, apply this fix: https://github.com/yzane/vscode-markdown-pdf/issues/342#issuecomment-2896652277
 
 Mermaid (graphs) look a bit off here and there: https://github.com/mermaid-js/mermaid/issues/7260
 
