@@ -75,7 +75,7 @@ $$
 \end{align*}
 $$
 
-TODO: Aus Tafelbild von Faris die andere Lösung übernehmen
+TODO: Aus Tafelbild von Faris (Per Pairdrop gesendet)
 
 | $S$                 | $N$                 | $L$                 | $(S \land \neg N) \lor (\neg S \land L)$ | $(\neg S \lor N) \land (S \lor \neg L)$ |
 | ------------------- | ------------------- | ------------------- | ---------------------------------------- | --------------------------------------- |
@@ -237,7 +237,16 @@ $$
 
 (*) Assoziativität weiß ich nicht herzuleitern oder drum herum zu arbeiten. Durch die Aufgabenstellung sollte das aber gegeben sein.
 
-TODO: Anderer Lösungsweg mit nur distribution und der hilfsaussage übernehmen
+Musterlösung: [ti-i-blatt-02.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=363685)
+
+$$
+\begin{align*}
+((A \lor B) \lor C) \land (A \lor (B \lor C)) &= ((A\lor B) \land (A \lor (B \lor C))) \lor (C \land (A \lor (B \lor C))) &\text{(Distrib.)} \\
+&= ((A \lor B) \land (A \lor (B \lor C))) \lor C &\text{(Hilfssatz.)} \\
+&= ((A \land (A \lor (B \lor C))) \lor (B \land (A \lor (B \lor C)))) \lor C &\text{(Distrib.)} \\
+&= (A \lor B) \lor C &\text{(Hilfssatz.)}
+\end{align*}
+$$
 
 ---
 
