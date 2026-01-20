@@ -75,6 +75,8 @@ $$
 \end{align*}
 $$
 
+TODO: Aus Tafelbild von Faris die andere Lösung übernehmen
+
 | $S$                 | $N$                 | $L$                 | $(S \land \neg N) \lor (\neg S \land L)$ | $(\neg S \lor N) \land (S \lor \neg L)$ |
 | ------------------- | ------------------- | ------------------- | ---------------------------------------- | --------------------------------------- |
 | $\color{green}\top$ | $\color{green}\top$ | $\color{green}\top$ | $\color{red}\bot$                        | $\color{green}\top$                     |
@@ -235,6 +237,8 @@ $$
 
 (*) Assoziativität weiß ich nicht herzuleitern oder drum herum zu arbeiten. Durch die Aufgabenstellung sollte das aber gegeben sein.
 
+TODO: Anderer Lösungsweg mit nur distribution und der hilfsaussage übernehmen
+
 ---
 
 5.
@@ -244,11 +248,11 @@ $$
 $$
 \begin{align*}
 (C \lor \neg(A \land \neg (C \lor \neg A))) \land (C \lor \neg B)
-&= (C \lor \neg(A \land (\neg C \land A))) \land (C \lor \neg B) &\text{(De Morgan)} \\
+&= (C \lor \neg(A \land (\neg C \land A))) \land (C \lor \neg B) &\text{(DM/DN)} \\
 &= (C \lor \neg(A \land (A \land \neg C))) \land (C \lor \neg B) &\text{(Kommut.)} \\
 &= (C \lor \neg((A \land A) \land \neg C)) \land (C \lor \neg B) &\text{(Assozi.)} \\
 &= (C \lor \neg(A \land \neg C)) \land (C \lor \neg B) &\text{(Idemp.)} \\
-&= (C \lor (\neg A \lor C)) \land (C \lor \neg B) &\text{(De Morgan)} \\
+&= (C \lor (\neg A \lor C)) \land (C \lor \neg B) &\text{(DM/DN)} \\
 &= (C \lor (C \lor \neg A)) \land (C \lor \neg B) &\text{(Kommut.)} \\
 &= ((C \lor C) \lor \neg A) \land (C \lor \neg B) &\text{(Assozi.)} \\
 &= (C \lor \neg A) \land (C \lor \neg B) &\text{(Idemp.)} \\
@@ -263,7 +267,7 @@ $$
 \neg (B \lor \neg C) \lor ((\neg B \land A) \land A)
 &= \neg (B \lor \neg C) \lor (\neg B \land (A \land A)) &\text{(Assozi.)} \\
 &= \neg (B \lor \neg C) \lor (\neg B \land A) &\text{(Idemp.)} \\
-&= (\neg B \land C) \lor (\neg B \land A) &\text{(De Morgan)} \\
+&= (\neg B \land C) \lor (\neg B \land A) &\text{(DM/DN)} \\
 &= \neg B \land (C \lor A) &\text{(Distrib.)}
 \end{align*}
 $$
