@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulare</title>
+</head>
+<body>
+    <form action="https://google.com" method="get">
+        <p>Search on google</p>
+        <input type="text" name="q">
+        <input type="submit" value="POST" formmethod="post">
+        <input type="submit" value="GET">
+    </form>
+    
+    <br><br>
+
+    <form>
+        <input type="text" disabled placeholder="Disabled">
+        <br>
+        <input type="text" readonly value="abc" placeholder="Readonly">
+        <br>
+        <input type="text" required placeholder="Required">
+        <br>
+        <input type="text" pattern="(0x)?[0-9a-fA-F]+" required>
+        <br>
+        <input type="text" minlength="3" maxlength="5" placeholder="minlength=3 maxlength=5">
+        <br>
+        <input type="text" size="10" placeholder="size=10">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <input type="text" list="suggestions" placeholder="Type to see suggestions">
+        <datalist id="suggestions">
+            <option value="Option 1">
+            <option value="Option 2">
+            <option value="Option 3">
+        </datalist>
+    </form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Personendaten</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Anschrift</legend>
+
+            <select required>
+                <option value="mr" selected>Herr</option>
+                <option value="ms">Frau</option>
+                <option value="etc">Anderes</option>
+            </select>
+            <input type="text" placeholder="Titel">
+
+            <br><br>
+
+            <input type="text" placeholder="Vorname" required maxlength="32">
+            <input type="text" placeholder="Nachname" required maxlength="32">
+
+            <br><br>
+
+            <input type="text" placeholder="Straße" required>
+            <input type="text" placeholder="Haus Nr." size="4" required pattern="[1-9][0-9]*\s?[a-zA-Z]?">
+            <br><br>
+            <input type="text" placeholder="PLZ" size="6" minlength="5" maxlength="5" required>
+            <input type="text" placeholder="Ort" required>
+            <input type="text" placeholder="Bundesland" list="bundesländer" required>
+            <datalist id="bundesländer">
+                <option value="Baden-Württemberg">
+                <option value="Bayern">
+                <option value="Berlin">
+                <option value="Brandenburg">
+                <option value="Bremen">
+                <option value="Hamburg">
+                <option value="Hessen">
+                <option value="Mecklenburg-Vorpommern">
+                <option value="Niedersachsen">
+                <option value="Nordrhein-Westfalen">
+                <option value="Rheinland-Pfalz">
+                <option value="Saarland">
+                <option value="Sachsen">
+                <option value="Sachsen-Anhalt">
+                <option value="Schleswig-Holstein">
+                <option value="Thüringen">
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Geburtsdaten</legend>
+
+            <input type="datetime-local" placeholder="Geburtsdatum" required>
+            <br><br>
+            <input type="text" placeholder="Sternzeichen" list="sternzeichen" required>
+            <datalist id="sternzeichen">
+                <option value="Widder">
+                <option value="Stier">
+                <option value="Zwillinge">
+                <option value="Krebs">
+                <option value="Löwe">
+                <option value="Jungfrau">
+                <option value="Waage">
+                <option value="Skorpion">
+                <option value="Schütze">
+                <option value="Steinbock">
+                <option value="Wassermann">
+                <option value="Fische">
+        </fieldset>
+        <fieldset>
+            <legend>Sonstiges</legend>
+
+            <label for="bild">Bild: </label>
+            <input type="file" id="bild" name="bild" accept="image/*" required>
+
+            <br><br>
+
+            <label for="fam">Familienstand: </label>
+            <select id="fam" required>
+                <option value="single" selected>Ledig</option>
+                <option value="married">Verheiratet</option>
+                <option value="divorced">Geschieden</option>
+                <option value="widowed">Verwitwet</option>
+            </select>
+
+            <br><br>
+
+            <label for="kids">Anzahl Kinder:</label>
+            <input type="number" id="kids" name="kids" min="0" max="20" value="0" required>
+        
+            <br><br>
+
+            <label>Kommentar:</label>
+            <br>
+            <textarea rows="5"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Formular absenden">
+    </form>
+</body>
+</html>
