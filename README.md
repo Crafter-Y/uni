@@ -21,6 +21,7 @@ I may or may not post my transcripts here.
 
 - [2026-01-07.md](./ka-tinf25b4-linear-algebra/2026-01-07.md)
 - [2026-01-14.md](./ka-tinf25b4-linear-algebra/2026-01-14/2026-01-14.md)
+- [2026-01-21.md](./ka-tinf25b4-linear-algebra/2026-01-21.md)
 
 ### KA-T25B4 Digitaltechnologie
 
