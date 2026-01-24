@@ -39,6 +39,7 @@ I may or may not post my transcripts here.
 ### KA-T25B4 Intercultural Communication
 
 - [2026-01-09.md](./ka-tinf25b4-intercultural-communication/2026-01-09.md)
+- [2026-01-23.md](./ka-tinf25b4-intercultural-communication/2026-01-23.md)
 
 ### KA-T25B4 Programmieren
 

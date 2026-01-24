@@ -75,7 +75,17 @@ $$
 \end{align*}
 $$
 
-TODO: Aus Tafelbild von Faris (Per Pairdrop gesendet)
+Um auf das Ergebnis von der Moodle Aufgabe zu kommen, auch so:
+
+$$
+\begin{align*}
+\neg((S \land \neg N) \lor (\neg S \land L)) &= (\neg S \lor N) \land (S \lor \neg L) \\
+&= (\neg S \land S) \lor (\neg S \land \neg L) \lor (N \land S) \lor (N \land \neg L) \\
+&= (\neg S \land \neg L) \lor (N \land S) \lor [(N \land \neg L \land S) \lor (N \land \neg L \land \neg S)] \\
+&= (\neg S \land \neg L) \lor (\neg S \land \neg L \land N) \lor (N \land s) \lor (N \land S \land \neg L) \\
+&= (\neg S \land \neg L) \lor (N \land S)
+\end{align*}
+$$
 
 | $S$                 | $N$                 | $L$                 | $(S \land \neg N) \lor (\neg S \land L)$ | $(\neg S \lor N) \land (S \lor \neg L)$ |
 | ------------------- | ------------------- | ------------------- | ---------------------------------------- | --------------------------------------- |
