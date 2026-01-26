@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+@SuppressWarnings("resource")
 void main() {
     Scanner scanner = new Scanner(System.in);
 
