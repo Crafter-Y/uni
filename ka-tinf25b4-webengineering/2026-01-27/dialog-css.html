@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #checkbox1 {
+            display: none;
+        }
+
+        #dialog1 {
+            display: none;
+        }
+
+        #checkbox1:checked ~ #dialog1 {
+            display: block;
+        }
+
+        #open { display: inline-block; }
+        #fake-open { display: none; }
+
+        #checkbox1:checked ~ #open { display: none; }
+        #checkbox1:checked ~ #fake-open { display: inline-block; }
+   
+        #close { display: none; }
+        #fake-close { display: inline-block; }
+
+        #checkbox1:checked ~ #fake-close { display: none; }
+        #checkbox1:checked ~ #close { display: inline-block; }
+   
+   </style>
+</head>
+<body>
+    <input type="checkbox" id="checkbox1">
+
+    <button><label for="checkbox1">Toggle Dialog</label></button>
+
+    <button id="open"><label for="checkbox1">Open Dialog</label></button>
+    <button id="fake-open">Open Dialog</button>
+
+    <button id="close"><label for="checkbox1">Close Dialog</label></button>
+    <button id="fake-close">Close Dialog</button>
+    
+    <dialog id="dialog1">
+        <h1>Dialog 1</h1>
+
+        <button><label for="checkbox1">Close</label></button>
+    </dialog>
+</body>
+</html>
