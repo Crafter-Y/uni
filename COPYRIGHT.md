@@ -21,3 +21,12 @@ Publishing entire collections of his slides was explicitly denied. Although "sma
 Explicit permission to share the following files was given:
 
 - [Webengineering I - 1 HTML.pdf](./external/Webengineering%20I%20-%201%20HTML.pdf)
+
+© Ali Rezvani @ DHBW Karlsruhe
+
+Explicit permission to share the following files was given:
+
+- [Introduction-IC - ST.pdf](/external/Introduction-IC%20-%20ST.pdf)
+- [Block 1. Part 1.pdf](/external/Block%201.%20Part%201.pdf)
+- [Block 1 - Part 2.pdf](/external/Block%201%20-Part%202.pdf)
+- [Block 2.pdf](/external/Block%202.pdf)
