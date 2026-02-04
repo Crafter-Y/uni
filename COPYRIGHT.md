@@ -30,3 +30,4 @@ Explicit permission to share the following files was given:
 - [Block 1. Part 1.pdf](/external/Block%201.%20Part%201.pdf)
 - [Block 1 - Part 2.pdf](/external/Block%201%20-Part%202.pdf)
 - [Block 2.pdf](/external/Block%202.pdf)
+- [Block 3.pdf](/external/Block%203.pdf)
