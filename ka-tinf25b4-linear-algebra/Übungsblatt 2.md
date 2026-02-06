@@ -114,7 +114,7 @@ und $\overline{f}$ damit injektiv ist.
 
 c)
 
-Wenn $f(X) per Definition alle tatsächliche getroffenen Werte enthält, dann wird auch jeder Wert in f(X) getroffen. Daraus ergibt sich, dass $\overline{f}$ surjektiv ist.
+Wenn $f(X)$ per Definition alle tatsächliche getroffenen Werte enthält, dann wird auch jeder Wert in f(X) getroffen. Daraus ergibt sich, dass $\overline{f}$ surjektiv ist.
 
 Da $\overline{f}$ nun injektiv und surjektiv ist, ist $\overline{f}$ bijektiv.
 
