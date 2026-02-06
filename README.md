@@ -64,6 +64,10 @@ I may or may not post my transcripts here.
 - [2026-02-03.md](./ka-tinf25b4-theoretical-computer-science/2026-02-03/2026-02-03.md)
 - [Übungsblatt 2](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%202/Übungsblatt%202.md)
 
+### Incredible Proof Machine
+
+- [Incredible Proof Machine.md](./incredible-proof-machine/Incredible%20Proof%20Machine.md) (Solutions)
+
 ## Project setup
 
 Install the recommended extensions to have the full developer experience with the tooling.
