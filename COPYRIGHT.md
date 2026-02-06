@@ -15,6 +15,7 @@ Explicit permission to share the following files was given:
 Publishing entire collections of his slides was explicitly denied. Although "small portions" as references would be okay:
 
 - [vorgehensmodelle.pdf](./external/vorgehensmodelle.png)
+- [v-model.png](./external/v-model.png)
 
 © Prof. Dr. Jörn Eisenbiegler @ DHBW Karlsruhe
 
