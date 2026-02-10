@@ -18,7 +18,18 @@
 | 2.5     | $\bot$                                          | IE 2.3 2.4 |
 | 2       | $A \land (B \rightarrow \bot) \rightarrow \bot$ | II 2.1 2.5 |
 
-TODO: tabellarsich die andere seite
+| Schritt | Aussage                                         | Begründung    |
+| ------- | ----------------------------------------------- | ------------- |
+| 1       | $A \land (B \rightarrow \bot) \rightarrow \bot$ | Prämisse      |
+| 2       | $B \lor (B \rightarrow \bot)$                   | TND           |
+| 3.1     | $A$                                             | Annahme       |
+| 3.2.1   | $B$                                             | 1. Fall von 2 |
+| 3.2.2   | $B \rightarrow \bot$                            | 2. Fall von 2 |
+| 3.2.3   | $A \land (B \rightarrow \bot)$                  | K 3.1 3.2.2   |
+| 3.2.4   | $\bot$                                          | IE 1 3.2.3    |
+| 3.2.5   | $B$                                             | F 3.2.4       |
+| 3.2     | $B$                                             | D 3.2.1 3.2.5 |
+| 3       | $A \rightarrow B$                               | II 3.1 3.2    |
 
 ---
 
@@ -61,9 +72,22 @@ Ja, das sind 24 Nullen.
 
 (d) Direkter Beweis:
 
+$$
+\begin{align*}
+x(1-x) &= -x^2 + x \\
+&= -(x^2 - x + 0.5) + 0.5 \\
+&= -(x - \frac{1}{2})^2 + \frac{1}{4}
+\end{align*}
+$$
+
 1. $x(1-x)$ ist eine Parabel. In Scheitelpunktform: $-(x- \frac{1}{2})^2 + \frac{1}{4}$
 2. Den Eigenschaften der Parabel sind zu entnehmen, dass sie nach unten geöffnet ist und ihren Scheitelpunkt bei ($\frac{1}{2}, \frac{1}{4}$) hat.
 3. Damit ist gezeigt, dass der Ausdruck niemals $\frac{1}{4}$ überschreiten wird und somit gültig ist
+
+oder
+
+1. Das negative Quadrat eines Ausdrucks ist niemals größer als 0.
+2. Deshalb kann der Ausdruck niemals größer als $\frac{1}{4}$ sein, was zu beweisen war.
 
 ---
 

@@ -23,8 +23,8 @@ I may or may not post my transcripts here.
 
 - [2026-01-07.md](./ka-tinf25b4-linear-algebra/2026-01-07.md)
 - [2026-01-14.md](./ka-tinf25b4-linear-algebra/2026-01-14/2026-01-14.md)
-- [2026-01-21.md](./ka-tinf25b4-linear-algebra/2026-01-21.md)
 - [Übungsblatt 1.md](./ka-tinf25b4-linear-algebra/Übungsblatt%201.md)
+- [2026-01-21.md](./ka-tinf25b4-linear-algebra/2026-01-21.md)
 - [Übungsblatt 2.md](./ka-tinf25b4-linear-algebra/Übungsblatt%202.md)
 - [2026-02-04.md](./ka-tinf25b4-linear-algebra/2026-02-04.md)
 - [Übungsblatt Vollständige Induktion.md](./ka-tinf25b4-linear-algebra/Übungsblatt%20Vollständige%20Induktion.md)
