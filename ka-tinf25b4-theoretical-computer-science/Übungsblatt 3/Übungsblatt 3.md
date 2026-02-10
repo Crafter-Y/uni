@@ -7,13 +7,24 @@
 | ![](./PM1.svg) | ![](./PM2.svg) |
 | -------------- | -------------- |
 
-TODO: "schriftlicher beweis" hierfür aus den Lösungen übernehmen
+
+| Schritt | Aussage                                         | Begründung |
+| ------- | ----------------------------------------------- | ---------- |
+| 1       | $A \rightarrow B$                               | Prämissse  |
+| 2.1     | $A \land (B \rightarrow \bot)$                  | Annahme    |
+| 2.2     | $A$                                             | KL 2.1     |
+| 2.3     | $B \rightarrow \bot$                            | KR 2.1     |
+| 2.4     | $B$                                             | IE 1 2.2   |
+| 2.5     | $\bot$                                          | IE 2.3 2.4 |
+| 2       | $A \land (B \rightarrow \bot) \rightarrow \bot$ | II 2.1 2.5 |
+
+TODO: tabellarsich die andere seite
 
 ---
 
 2.
 
-(a) Beweis durch Widerspruch:
+(a) Beweis durch Widerspruch/Gegenbeispiel:
 
 Für $p = 41$ zeigt sich:
 
@@ -25,10 +36,22 @@ $11563$ ist keine Primzahl, damit gilt die Annahme nicht.
 
 (b) Direkter Beweis
 
-1. Quadratzahlen sind eine ganze Zahl mal sich selber
-2. Ganze Zahlen sind abwechselnd gerade und ungerade
-3. Deren Quadrate sind dementsprechend auch abwechselnd gerade und ungerade
-4. Die Differenz zwischen einer geraden und ungeraden Zahl ist immer ungerade
+Zu zeigen:
+
+$$
+\forall n \in \mathbb{N}: \exists k \in \mathbb{N} : n^2 - (n - 1)^2 = 2k - 1
+$$
+
+Beweis:
+
+$$
+\begin{align*}
+n^2 - (n-1)^2 &= n^2 - (n^2 - 2n + 1) \\
+&= 2n - 1 \\
+&= 2k - 1 &\text{n = k} \\
+&&\square
+\end{align*}
+$$
 
 (c) Direkter Beweis:
 
@@ -36,7 +59,7 @@ $100!$ = 93 326 215 443 944 152 681 699 238 856 266 700 490 715 968 264 381 621 
 
 Ja, das sind 24 Nullen.
 
-(d) ^Direkter Beweis:
+(d) Direkter Beweis:
 
 1. $x(1-x)$ ist eine Parabel. In Scheitelpunktform: $-(x- \frac{1}{2})^2 + \frac{1}{4}$
 2. Den Eigenschaften der Parabel sind zu entnehmen, dass sie nach unten geöffnet ist und ihren Scheitelpunkt bei ($\frac{1}{2}, \frac{1}{4}$) hat.
@@ -90,5 +113,6 @@ Eigenschaften:
 - nicht symmetrisch, da $(4, 5)$ aber nicht $(5,4)$
 - nicht transitiv, da $(1, 3)$ und $(3, 1)$, aber nicht $(1,1)$
 - nicht antisymmetrisch, da $(1, 3)$ und $(3, 1)$ aber nicht $3 = 1$
+- nicht linear, da weder $(5,1)$ noch $(1,5)$
 
 Es ist deshalb ebenfalls keine Äquivalenzrelation
