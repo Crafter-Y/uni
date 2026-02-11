@@ -253,4 +253,38 @@ $$
 \end{align*}
 $$
 
+5.
+
+TODO
+
+6.
+
+TODO
+
+7.
+
+$$
+H \le G \Leftrightarrow \Bigg \{
+\begin{align*}
+    &\text{a)} \space H \neq 0 \\
+    &\text{b)} \space  \forall a,b \in H: ab^{-1} \in H
+\end{align*}
+$$
+
+"$\Rightarrow$": H ist Untergruppe, dann ist $H \neq 0$ (nach Definition 1). Wegen Abschluss unter Inversen (3) gilt $b \in H$ dass $b^{-1} \in H$. Für alle $a,b \in H$ gilt $ab \in H$ und $ab^{-1} \in H$
+
+"$\Leftarrow$": Nach (a) gilt sofort $H \neq 0$. Abschluss unter Inversen: Sei $a \in H$. Da auch $e_G \in H$, folgt aus (b)
+
+$$
+e_G \space a^{-1}  \in H \Rightarrow a^{-1} \in H
+$$
+
+Abschluss unter $*$: Sei $a,b \in H$. Dann gilt auch $b^{-1} \in H$ (Schritt 2). Setze in (b) $a = a$ und $n = b^{-1}$:
+
+$$
+a(b^{-1}) \in H \Rightarrow ab \in H
+$$
+
+11.
+
 TODO
