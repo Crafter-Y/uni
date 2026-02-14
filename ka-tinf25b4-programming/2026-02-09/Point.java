@@ -32,19 +32,15 @@ class Point {
     }
 
     public Point mirrorX() {
-        this.y = -this.y;
-        return this;
+        return new Point(this.x, -this.y);
     }
 
     public Point mirrorY() {
-        this.x = -this.x;
-        return this;
+        return new Point(-this.x, y);
     }
 
     public Point mirrorOrigin() {
-        this.x = -this.x;
-        this.y = -this.y;
-        return this;
+        return new Point(-this.x, -this.y);
     }
 
     public double getDistance(Point otherPoint) {
