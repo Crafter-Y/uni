@@ -54,7 +54,9 @@ $[0] = \{-2\pi, -\pi, 0, \pi, 2\pi\}$
 
 (c)
 
-Die Quotientenmenge $M/\sim$ enthält unendlich viele Äquivalenzklassen $[x]$ im Intervall $[-1, 1]$
+$$
+M/_\sim = \{[x]_\sim|x \in [-\frac{\pi}{2}, \frac{\pi}{2}]\}
+$$
 
 ---
 
@@ -223,8 +225,8 @@ $f \circ g$:
 ![](./fg.svg)
 
 - nicht injektiv (0 wird nicht getroffen)
-- surjektiv
-- nicht bijektiv (nicht injektiv)
+- nicht surjektiv
+- nicht bijektiv (nicht injektiv oder surjektiv)
 
 $g \circ f$:
 
