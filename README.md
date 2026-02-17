@@ -30,13 +30,14 @@ I may or may not post my transcripts here.
 - [Übungsblatt Vollständige Induktion.md](./ka-tinf25b4-linear-algebra/Übungsblatt%20Vollständige%20Induktion.md)
 - [2026-02-11.md](./ka-tinf25b4-linear-algebra/2026-02-11.md)
 
-### KA-T25B4 Digitaltechnologie
+### KA-T25B4 Digitaltechnik
 
 - [2026-01-08.md](./ka-tinf25b4-digital-technology/2026-01-08.md)
 - [2026-01-15.md](./ka-tinf25b4-digital-technology/2026-01-15.md)
 - [2026-01-19.md](./ka-tinf25b4-digital-technology/2026-01-19.md)
 - [2026-02-05.md](./ka-tinf25b4-digital-technology/2026-02-05.md)
 - [2026-02-12.md](./ka-tinf25b4-digital-technology/2026-02-12.md)
+- [2026-02-17.md](./ka-tinf25b4-digital-technology/2026-02-17.md)
 
 ### KA-T25B4 Projektmanagement
 
