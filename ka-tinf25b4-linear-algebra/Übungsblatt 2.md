@@ -259,7 +259,27 @@ TODO
 
 6.
 
-TODO
+Gegeben: $\phi: G \rightarrow H$ ist ein bijektiver Homomorphismus:
+
+$$
+\phi(a * b) = \phi(a) \circ \phi(b)
+$$
+
+Zuzeigen: $\phi^{-1}: H \rightarrow G$ ist ein Isomorphismus.
+
+Da $\phi$ bijektiv ist, existiert auch $\phi^{-1}$ und ist bijektiv.
+
+Seien $a,b \in H$, dann sind $\phi^{-1}(a), \phi^{-1}(b) \in G$.
+
+$\phi(\phi^{-1}(a) * \phi^{-1}(b)) = \phi(\phi^{-1}(a)) \circ \phi(\phi^{-1}(b)) = a \circ b$
+
+$\phi(\phi^{-1}(a \circ b)) = a \circ b$
+
+$\phi(\phi^{-1}(a)) * \phi(\phi^{-1}(b)) = \phi(\phi^{-1}(a \circ b))$
+
+$\phi(x) = \phi(y) \Rightarrow x = y$
+
+$\phi^{-1}(a) * \phi^{-1}(b) = \phi^{-1}(a \circ b)$
 
 7.
 
