@@ -32,6 +32,7 @@ I may or may not post my transcripts here.
 - [2026-02-18.md](./ka-tinf25b4-linear-algebra/2026-02-18.md)
 - [Übungsblatt 3.md](./ka-tinf25b4-linear-algebra/Übungsblatt%203.md)
 - [2026-02-19.md](./ka-tinf25b4-linear-algebra/2026-02-19.md)
+- [Übungsblatt 4.md](./ka-tinf25b4-linear-algebra/Übungsblatt%204.md)
 
 ### KA-T25B4 Digitaltechnik
 
@@ -79,6 +80,7 @@ I may or may not post my transcripts here.
 - [2026-02-10.md](./ka-tinf25b4-theoretical-computer-science/2026-02-10.md)
 - [Übungsblatt 4](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%204/Übungsblatt%204.md)
 - [2026-02-17.md](./ka-tinf25b4-theoretical-computer-science/2026-02-17.md)
+- [Übungsblatt 5](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%205.md)
 
 ### Incredible Proof Machine
 
