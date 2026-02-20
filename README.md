@@ -81,6 +81,7 @@ I may or may not post my transcripts here.
 - [Übungsblatt 4](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%204/Übungsblatt%204.md)
 - [2026-02-17.md](./ka-tinf25b4-theoretical-computer-science/2026-02-17.md)
 - [Übungsblatt 5](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%205.md)
+- [2026-02-20.md](./ka-tinf25b4-theoretical-computer-science/2026-02-20.md)
 
 ### Incredible Proof Machine
 
