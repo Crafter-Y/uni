@@ -6,11 +6,45 @@
 
 1.
 
-TODO
+Wenn 2 Mengen A und B disjukt sind, haben sie keine gemeinsamen Elemente. Die Mächtigkeit der Schnittmenge ist also 0. Die vereinigung der Mengen A und B schafft dann eine neue Menge mit allen Elementen aus A und allen Elementen aus B. Die Mächtigkeit der Schnittmenge ergibt sich also durch das aufaddieren der Mächtigkeiten beider Einzelmengen.
+
+Wären die Mengen A und B nicht disjunkt, hätten sie gemeinsame Elemente. Dann hätte die Schnittmenge dieser Mengen weniger Elemente als die Einzelmengen addiert, weshalb die Aussage dann nicht mehr gelten würde.
+
+---
 
 2.
 
-TODO
+a)
+
+$$
+\begin{align*}
+(x^4 + 2x^3& - 16x + \hspace{0.6cm} 14):(x-3) = x^3 + 5x^2 - x - 3 \\
+-(x^4- 3x^3&) \\
+5x^3&-16x^2+\hspace{0.5cm}14 \\
+-(5x^3&-15x^2) \\
+&-x^2+ \hspace{1.1cm} 14 \\
+-&(-x^2+3x) \\
+&\hspace{1.1cm}-3x+ 14 \\
+&\hspace{0.5cm}-(-3x + 9) \\
+&\hspace{2.8cm}5
+\end{align*}
+$$
+
+b)
+
+$$
+\begin{align*}
+(x^6-2x^5-&8x^4+13x^3-13x^2+4x-4):(x^2+3x-7) \\
+-(x^6+3x^5-&7x^4) \\
+-x^5-&x^4+13x^3-13x^3+4x-4 \\
+-(-x^5-&3x^4+7x^3) \\
+&2x^4 + 6x^3 - 13x^2 + 4x - 4 \\
+-(&2x^4 + 6x^3 - 14x^2) \\
+&\hspace{2.8cm}x^2 + 4x - 4 \\
+&\hspace{2cm}-(x^2 + 3x - 7) \\
+&\hspace{3.9cm}x + 3
+\end{align*}
+$$
 
 ---
 
