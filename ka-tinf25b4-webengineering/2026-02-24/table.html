@@ -1,0 +1,47 @@
+<body>
+    <style>
+        .even {
+            background-color: gray;
+        }
+
+        td:only-child {
+            border: 1px solid red;
+        }
+
+        table td {
+            border-collapse: collapse;
+            border: 1px solid blue;
+        }
+
+        h1:first-of-type {
+            font-family: sans-serif;
+            font-size: 16pt;
+            font-weight: bold;
+        }
+
+        #l {
+            text-align: right;
+        }
+
+        td:nth-child(2n) {
+            text-align: center;
+        }
+    </style>
+
+    <h1 id="a">Meine Überschrift</h1>
+    <p id="b">Absatz 1</p>
+    <table id="c">
+        <tr id="d" class="odd row">
+            <td id="e">Data 1</td>
+            <td id="f">Data 2</td>
+        </tr>
+        <tr id="g" class="even row">
+            <td id="h">Data 3</td>
+            <td id="i">Data 4</td>
+        </tr>
+        <tr id="j" class="row odd">
+            <td id="k" colspan="2">Data 5</td>
+        </tr>
+    </table>
+    <p id="l" class="m k">Absatz 4</p>
+</body>
