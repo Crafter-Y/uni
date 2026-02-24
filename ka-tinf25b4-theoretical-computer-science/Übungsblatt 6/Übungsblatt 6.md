@@ -71,7 +71,7 @@ Die einzige gültige Kombination ist: $\neg x_1, \neg x_2, x_3$
 
 10: nicht möglich
 
-61: nicht möglich
+61: 1 + 8 + 11 + 12 + 13 + 16
 
 70: 3 + 11 + 13 + 15 + 12 + 16
 
@@ -85,8 +85,30 @@ Die einzige gültige Kombination ist: $\neg x_1, \neg x_2, x_3$
 
 [HellmannBrute](./HellmannBrute.java): `Top Secret!11`
 
+Gegeben: $W_K \equiv e \cdot m_K \space mod \space C$
+
+$u \equiv \sum b_Kw_K$
+
+Gesucht: $v \equiv d \cdot u \space mod \space C$
+
+und $m_K$ zum Lösen des Teilsummenproblems (SSP)
+
+Wir wissen: $w_K \equiv e \cdot m_K \space mod \space C$ || $\cdot d$
+
+$d \cdot w_K \equiv d \cdot e \cdot m_K \space mod \space C$
+
+$d \cdot w_K \equiv m_K \space mod \space C$
+
+> Für welche $d$ ist $m_K$ superincreasing?
+
+$d = 3: (2,5,10,20,39,79,157,315)$
+
+Damit erhalten wir den privaten Schlüssel: $(2,5,10,20,39,79,157,315, 3, 631)$
+
+Damit können wir die Nachricht ebenfalls dechiffrieren zu: `Top Secret!11`
+
 ---
 
 4.
 
-TODO
+TODO (vielleicht aus Handyfotos verstehen)
