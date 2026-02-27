@@ -25,27 +25,25 @@ $$
 \end{align*}
 $$
 
-$\roman{1} 3 \lambda_1 + 5 \lambda_2 = 0$
+$\text{I}\quad 3 \lambda_1 + 5 \lambda_2 = 0$
 
-$\roman{2} 7 \lambda_1 + 9 \lambda_2 = 0$
+$\text{II}\quad 7 \lambda_1 + 9 \lambda_2 = 0$
 
-$\roman{3} 2 \lambda_1 + 1 \lambda_2 = 0$
+$\text{III}\quad 2 \lambda_1 + 1 \lambda_2 = 0$
 
 $\lambda_2$ in $I$:
 
-3 l1 + 5(-2l1) = -7l1 = 0
+$3 \cdot \lambda_1 + 5(-2 \cdot \lambda_1) = -7 \cdot \lambda_1 = 0$
 
-=> l1 = 0
+=> $\lambda_1 = 0$
 
-l1 in III:
+$\lambda_1$ in III:
 
-l2 = -2l1 = -2 * 0 = 0
+$\lambda_2 = -2 \cdot \lambda_1 = -2 \cdot 0 = 0$
 
--> v,w sind linear unabhängig
+=> $v,w$ sind linear unabhängig
 
 Sie stellen keine Basis von Q3 dar.
-
-TODO: richtig aufschreiben
 
 (b)
 

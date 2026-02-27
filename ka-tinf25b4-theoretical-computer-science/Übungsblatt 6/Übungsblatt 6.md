@@ -111,4 +111,21 @@ Damit können wir die Nachricht ebenfalls dechiffrieren zu: `Top Secret!11`
 
 4.
 
-TODO (vielleicht aus Handyfotos verstehen)
+Jedes Teilsummenproblem muss ein Partitionsproblem reduziert werden.
+
+Zur Illustration betrachten wir das Teilsummenproblem $M = \{1,2,5,8,10\}, T = 14$, das offenbar eindeutig mit $1+5+8=T=14$ lösbar ist. Der Hinweis lautet nun, das Partitionsproblem
+
+
+$$
+N = \{1,2,5,8,10, \underbrace{28}_{2T}, \underbrace{26}_{S}\}
+$$
+
+mit $S = \sum_{m \in M}m$ zu betrachten.
+
+Dies hat die eindeutige Lösung
+
+$$
+\{\{\underbrace{2,10}_{=S-T}, \underbrace{28}_{2T}\}, \{\underbrace{1,5,8}_{=T}, \underbrace{26}_{=S}\}\}
+$$
+
+wo hier die "rechte Seite" gerade unsere Lösung T und die Gesamtsumme S darstellt. Auf der "linken Seite" haben wir die verbleibenden Zahlen S - T und die doppelte Zielsumme 2T.
