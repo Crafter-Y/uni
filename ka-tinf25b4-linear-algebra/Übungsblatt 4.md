@@ -47,7 +47,40 @@ Sie stellen keine Basis von Q3 dar.
 
 (b)
 
-TODO
+$$
+\begin{pmatrix}
+\lambda_1 \cdot 1 \\ \lambda_1 \cdot 2
+\end{pmatrix} + 
+\begin{pmatrix}
+\lambda_2 \cdot 3 \\ \lambda_2 \cdot 7
+\end{pmatrix} + 
+\begin{pmatrix}
+\lambda_3 \cdot (-1) \\ \lambda_3 \cdot 3
+\end{pmatrix} =
+\begin{pmatrix}
+0 \\ 0
+\end{pmatrix}
+$$
+
+$\text{I}\quad \lambda_1 + 3 \lambda_2 - \lambda_3 = 0$
+
+$\text{II}\quad 2 \lambda_1 + 7 \lambda_2 + 3 \lambda_3 = 0$
+
+$II - 2 \cdot I$: $(2 \lambda_1 + 7 \lambda_2 + 3 \lambda_3) - (2 \lambda_1 + 6 \lambda_2 - 2 \lambda_3)$
+
+$\lambda_2 = -5 \lambda_3$
+
+In $I$ einsetzen:
+
+$\lambda_1  + 3(-5 \lambda_3) - \lambda_3$
+
+$\lambda_1 = 16 \lambda_3$
+
+$\lambda_3 + 16 \lambda_1 - 5 \lambda_2 = 0$
+
+$\lambda_3 = 5 \lambda_1 - 16 \lambda_3$
+
+In $\mathbb{Q}^2$ können höchstens zwei Vektoren linear unabhängig sein. Die Menge $\{u, v, w\}$ enthält drei Vektoren, also ist sie linear abhängig und keine Basis.
 
 (c)
 
@@ -79,8 +112,6 @@ Für die Basis muss dementsprechend einer dieser 3 Vektoren weggelassen werden.
 (b)
 
 $w = v_3 - v_2$
-
-TODO: ist das fertig?
 
 (c)
 
