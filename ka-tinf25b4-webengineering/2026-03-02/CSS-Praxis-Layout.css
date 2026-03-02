@@ -1,0 +1,42 @@
+aside {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.header {
+    order: -2;
+    width: 100%;
+}
+
+.navitem {
+    display: block;
+}
+
+.navlist {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    order: -1;
+    width: 100%;
+}
+
+.navlast {
+     margin-left: auto;
+}
+
+.footer {
+    width: 100%
+}
+
+.smallarticle {
+    flex: 1;
+    min-width: 20rem;
+}
