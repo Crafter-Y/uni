@@ -44,7 +44,7 @@ $x = 16, f(x) = 16! =$ 20 922 789 888 000
 - Nicht Determiniertheit, es können unterschiedlich lange Wege gefunden werden
 - Finitheit, die Aufgabenstellung enthält alle Informationen, die ich brauche
 - Terminierung, da der Algorithmus irgendwann terminiert
-- Dynamisch finit, da das feld so groß ist, wie die eingabe und man nur eine Zahl als augabe braucht.
+- nicht dynamisch finit, speicher nicht berechnebar
 - Komplexität, da statistisch abzuschätzen ist, wann das Ergebnis getroffen wird
 
 ---
