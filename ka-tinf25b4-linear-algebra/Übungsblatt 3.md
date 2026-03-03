@@ -6,9 +6,34 @@
 
 1.
 
-Wenn 2 Mengen A und B disjukt sind, haben sie keine gemeinsamen Elemente. Die Mächtigkeit der Schnittmenge ist also 0. Die vereinigung der Mengen A und B schafft dann eine neue Menge mit allen Elementen aus A und allen Elementen aus B. Die Mächtigkeit der Schnittmenge ergibt sich also durch das aufaddieren der Mächtigkeiten beider Einzelmengen.
+$$
+\#(A \cup B) = \#A + \#B - \#(A \cap B)
+$$
 
-Wären die Mengen A und B nicht disjunkt, hätten sie gemeinsame Elemente. Dann hätte die Schnittmenge dieser Mengen weniger Elemente als die Einzelmengen addiert, weshalb die Aussage dann nicht mehr gelten würde.
+Da A und B disjunkt sind, ist die Vereinigung von A und B ($A \cap B$) die leere Menge ($\emptyset$). 
+
+Die Mächtigkeit der leeren Menge ist 0:
+
+$$
+\#(\emptyset) = 0
+$$
+
+Also gilt:
+
+$$
+\begin{align*}
+\#A + \#B - 0 = \#A + \#B \\
+&&\square
+\end{align*}
+$$
+
+Wenn beide Mengen nicht disjunkt sind, gibt es eine Schnittmenge $A \cap B$ mit $n$ Elementen. Die Mächtigkeit der Vereinigung von $A$ und $B$ wäre dann:
+
+$$
+\#A + \#B -n \neq \#A + \#B
+$$
+
+Also gilt die Aussage nicht für nicht disjunkte Mengen, also gilt sie nur für diskunkte Mengen.
 
 ---
 
@@ -34,7 +59,7 @@ b)
 
 $$
 \begin{align*}
-(x^6-2x^5-&8x^4+13x^3-13x^2+4x-4):(x^2+3x-7) \\
+(x^6-2x^5-&8x^4+13x^3-13x^2+4x-4):(x^2+3x-7) = x^4 - x^3 - 2x^2 + 1 \\
 -(x^6+3x^5-&7x^4) \\
 -x^5-&x^4+13x^3-13x^3+4x-4 \\
 -(-x^5-&3x^4+7x^3) \\
@@ -42,11 +67,11 @@ $$
 -(&2x^4 + 6x^3 - 14x^2) \\
 &\hspace{2.8cm}x^2 + 4x - 4 \\
 &\hspace{2cm}-(x^2 + 3x - 7) \\
-&\hspace{3.9cm}x + 3
+&\hspace{4.2cm}x + 3
 \end{align*}
 $$
 
----
+---°
 
 3.
 
@@ -74,6 +99,35 @@ $$
 
 b)
 
+Zu zeigen:
+
+$$
+\lambda \cdot 0_v \stackrel{!}{=} 0_v
+$$
+
+Beweis:
+
+$$
+\begin{align*}
+0_v + 0_v &= 0_v &||\cdot \lambda \\
+\lambda (0_v + 0_v) &= \lambda 0_v \\
+\lambda 0_v + \lambda 0_v &= \lambda 0_v  &|| -\lambda 0_v\\
+\lambda 0_v + \lambda 0_v - \lambda 0_v &= \lambda 0_v - \lambda 0_v \\
+\lambda 0_v = 0_v \\
+&&\square
+\end{align*}
+$$
+
+c)
+
+Zu zeigen:
+
+$$
+\lambda \cdot v = 0 \Rightarrow \lambda \stackrel{!}{=} 0 \lor v = 0
+$$
+
+Beweis:
+
 TODO
 
 ---
@@ -86,7 +140,7 @@ $U := \{(x_1, x_2, x_3) \in \mathbb{R}^3 | x_2 = x_2 = 2x_3 \}$
 
 $x_1 = x_2 = 2x_3$
 
-$x_3 = t$
+$t = x_3$
 
 $$
 (x_1, x_2, x_3) = (2t, 2t, t) = t(2, 2, 1)
@@ -101,6 +155,8 @@ Seien $u, u' \in U$
 $u = t \cdot (2,2,1)$, $u' = s \cdot (2,2,1), s, t \in \mathbb{R}$
 
 $u + u' = (t + s) \cdot (2,2,1)$
+
+Abschluss unter Skalarmultiplikation:
 
 $\lambda \cdot u = \lambda \cdot t \cdot (2,2,1)$
 

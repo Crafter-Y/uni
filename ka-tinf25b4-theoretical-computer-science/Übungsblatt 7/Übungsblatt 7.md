@@ -2,6 +2,8 @@
 
 [ti-i-blatt-07.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=363695)
 
+[Pseudocode Interpreter](https://moodle.dhbw.de/pluginfile.php/497806/mod_resource/content/13/pseudocode.html)
+
 ---
 
 1.
@@ -51,38 +53,39 @@ $x = 16, f(x) = 16! =$ 20 922 789 888 000
 (a)
 
 ```
-Algorithm isPrime(a)
-  b = a
-  while b > 2 do
-    if a mod (b-1) == 0 then
-      return false
-    endif
-    b = b - 1
-  endwhile
-  return true
+Algorithm isPrime(a, k)
+  if k == nil then
+    k = 2
+  endif
+  if a < 2 then
+    return false
+  endif
+  if k > (a - 1) then
+    return true
+  endif
+  if a mod k == 0 then
+    return false
+  endif
+  return isPrime(a, k + 1)
 EndAlgorithm
 ```
 
 (b)
 
 ```
-Algorithm isGoldbach(a)
-  b = a
-  while b > 1 do
-    if isPrime(b) then
-       c = a - b
-       if isPrime(c) then
-         print(b,c)
-         return true
-       endif
-    endif
-    b = b - 1
-  endwhile
-  return false
+Algorithm isGoldbach(a, b)
+  if b == nil then
+    b = a
+  endif
+  if b == 1 then
+    return false
+  endif
+  if isPrime(b) and isPrime(a-b) then
+    return true
+  endif
+  return isGoldbach(a, b-1)
 EndAlgorithm
 ```
-
-TODO: ist gar nicht rekursiv - soll ohne schleifen gemacht werden
 
 ---
 
@@ -93,3 +96,13 @@ Vorbedingung 2: $n \in \mathbb{N}$
 Zwischenbed. 2,3: $n \in \mathbb{N} \land s = 0$
 
 Zwischenbed 3,4: $n \in \mathbb{N} \land s = 0 \land i = n$
+
+Invariante 4: $n \in \mathbb{N} \land s = \frac{n^2}{2} + \frac{n}{2} - \frac{i^2}{2} - \frac{i}{2}$
+
+Vorbedingung 5: $n \in \mathbb{N} \land s = \frac{n^2}{2} + \frac{n}{2} - \frac{i^2}{2} - \frac{i}{2} \land i \gt 0$
+
+Zwischenbed 5,6: $n \in \mathbb{N} \land s = \frac{n^2}{2} + \frac{n}{2} - \frac{(i-1)^2}{2} - \frac{i}{2} \land i \gt 0$
+
+Nachbedingung 6: $n \in \mathbb{N} \land s = \frac{n^2}{2} + \frac{n}{2} - \frac{i^2}{2} - \frac{i}{2} \land i \ge 0$
+
+Nachbedingung 7: $n \in \mathbb{N} \land s = \frac{n^2}{2} + \frac{n}{2} \land i = 0$
