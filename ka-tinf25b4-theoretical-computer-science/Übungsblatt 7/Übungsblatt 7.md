@@ -19,22 +19,20 @@ $x = 16, f(x) = 16! =$ 20 922 789 888 000
 - Allgemein, da es für alle $n \times n$ eine Lösung angibt
 - Ausführbar
 - Nicht Determinismus, da ein Zufälliger Weg genommen wird
-- Determiniertheit, da es immer die gleiche Anzahl Schritte ist
+- Determiniert, da es immer die gleiche Anzahl Schritte ist
 - Finitheit, da es einen eindeutigen Schritt gibt, der immer wiederholt wird
 - Terminierung, da es immer eine Lösung findet
 - Dynamisch Frei, da keine Daten, außer die Schritte gespeichert werden
-- Komplexität, da die Lautzeit vermutet werden kann
 
 (b)
 
-- Nicht allgemein, es löst gar kein Problem
+- Allgemein
 - Ausführbar, man kann nach jedem Schritt einen weiteren machen
 - Nicht Determinismus, da nach einem Schritt ein zufälliger anderer kommt
-- Determiniertheit, da nie ein Ergenbis kommt
+- Determiniert, nur wenn es terminiert
 - Finitheit, die Beschreibung scheint mir eindeutig
 - Nicht Terminiert, es gibt kein Stopkriterium
-- Nicht dynamisch finit, da ein unendliches Gitter gegeben ist
-- Nicht Komplexität, Es benötigt unendlich Laufzeit und Ressourcen
+- nicht dynamisch finit
 
 (c)
 
@@ -45,7 +43,6 @@ $x = 16, f(x) = 16! =$ 20 922 789 888 000
 - Finitheit, die Aufgabenstellung enthält alle Informationen, die ich brauche
 - Terminierung, da der Algorithmus irgendwann terminiert
 - nicht dynamisch finit, speicher nicht berechnebar
-- Komplexität, da statistisch abzuschätzen ist, wann das Ergebnis getroffen wird
 
 ---
 
@@ -85,8 +82,14 @@ Algorithm isGoldbach(a)
 EndAlgorithm
 ```
 
+TODO: ist gar nicht rekursiv - soll ohne schleifen gemacht werden
+
 ---
 
 4.
 
-TODO
+Vorbedingung 2: $n \in \mathbb{N}$
+
+Zwischenbed. 2,3: $n \in \mathbb{N} \land s = 0$
+
+Zwischenbed 3,4: $n \in \mathbb{N} \land s = 0 \land i = n$
