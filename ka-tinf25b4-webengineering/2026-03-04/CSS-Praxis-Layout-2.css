@@ -89,27 +89,38 @@ body {
 	anchor-name: --nav34;
 }
 
+@position-try --navigation3-bottom {
+	top: calc(anchor(bottom) + anchor-size(height) + anchor-size(height));
+	left: anchor(left);
+	width: anchor-size(width);
+}
+
+@position-try --navigation4-bottom {
+	top: anchor(bottom);
+	left: anchor(left);
+	width: anchor-size(width);
+}
+
 #navigation3 {
 	position: fixed;
 	position-anchor: --nav32;
-	position-area: center right;
-	position-try-fallbacks: center left;
-	transform: translateY(37.5%);
-	/* width: anchor-size(width); */
+	inset: auto;
+	top: anchor(top);
+	left: anchor(right);
+	position-try-fallbacks: flip-inline, --navigation3-bottom;
 	margin: 0;
 	padding: 0;
 	border: none;
-	TODO
-	/* position-try-fallbacks: flip-inline; */
 }
 
-/* #navigation4 {
+#navigation4 {
 	position: fixed;
 	position-anchor: --nav34;
+	inset: auto;
 	top: anchor(top);
 	left: anchor(right);
-	width: anchor-size(width);
+	position-try-fallbacks: flip-inline, --navigation4-bottom;
 	margin: 0;
 	padding: 0;
-	border: none
-} */
+	border: none;
+}

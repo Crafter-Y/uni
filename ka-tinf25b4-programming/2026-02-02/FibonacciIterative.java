@@ -1,4 +1,4 @@
-final int SIZE = 50;
+int SIZE = 50;
 
 void main() {
     long[] fib = new long[SIZE];
