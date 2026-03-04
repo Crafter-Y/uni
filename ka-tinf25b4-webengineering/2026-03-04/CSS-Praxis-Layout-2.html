@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Praxis Layout</title>
+<link rel="stylesheet" type="text/css" href="../2026-03-02/CSS-Praxis-Layout-colors.css" />
+<link rel="stylesheet" type="text/css" href="./CSS-Praxis-Layout-2.css" />
+</head>
+<body>
+	<h1 id="header1" class="header">Die ist die Anwendungsüberschrift</h1>
+	<article id="article1" class="article  smallarticle"><p>Lorem
+		ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+		eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+		diam voluptua. At vero eos et accusam et justo duo dolores et ea
+		rebum.</p></article>
+	<article id="article2" class="article  smallarticle"><p>Lorem
+		ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+		eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+		diam voluptua. At vero eos et accusam et justo duo dolores et ea
+		rebum.</p></article>
+	<aside id="aside1" class="aside"><p>Lorem ipsum dolor sit amet,
+		consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+		labore et dolore magna aliquyam</p></aside>
+	<article id="article3" class="article  largearticle">
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+			diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+			erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+			et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+			Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+			sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+			dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+			et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+			takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+			sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+			invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+			At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+			kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+			amet.</p>
+		<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+			esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+			at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+			luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+			Lorem ipsum dolor sit amet.</p>
+	</article>
+	<footer id="footer1" class="footer">Das ist eine Fußzeile</footer>
+	<nav id="navigation1" class="navigation">
+		<ul id="navlist1" class="navlist">
+			<li id="navitem1" class="navitem">Datei</li>
+			<li id="navitem2" class="navitem">Bearbeiten</li>
+			<li id="navitem3" class="navitem">
+				<input type="button" class="navbutton" popovertarget="navigation2" value="Noch was anderes ..."/>
+			</li>
+			<li id="navitem4" class="navitem navlast">Hilfe</li>
+		</ul>
+	</nav>
+	<div id="navigation5" popover>hallo</div>
+	<nav id="navigation2" class="navpop" popover>
+		<ul id="navlist2" class="poplist">
+			<li id="navitem31" class="navitem">Naventry 31</li>
+			<li id="navitem32" class="navitem">
+			  <input type="button" class="navbutton" popovertarget="navigation3" value="Naventry 32..."/>
+			 </li>
+			<li id="navitem33" class="navitem">Naventry 33</li>
+			<li id="navitem34" class="navitem">
+			  <input type="button" class="navbutton" popovertarget="navigation4" value="Naventry 34..."/>
+			</li>
+		</ul>
+	</nav>
+	<nav id="navigation3" class="navpop" popover>
+		<ul id="navlist3" class="poplist">
+			<li id="navitem321" class="navitem">Naventry 321</li>
+			<li id="navitem322" class="navitem">Naventry 322</li>
+			<li id="navitem323" class="navitem">Naventry 323</li>
+			<li id="navitem324" class="navitem">Naventry 324</li>
+		</ul>
+	</nav>
+	<nav id="navigation4" class="navpop" popover>
+		<ul id="navlist4" class="poplist">
+			<li id="navitem341" class="navitem">Naventry 341</li>
+			<li id="navitem342" class="navitem">Naventry 342</li>
+			<li id="navitem343" class="navitem">Naventry 343</li>
+			<li id="navitem344" class="navitem">Naventry 344</li>
+		</ul>
+	</nav>
+</body>
+</html>

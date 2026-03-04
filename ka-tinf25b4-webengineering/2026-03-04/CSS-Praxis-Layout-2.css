@@ -1,0 +1,115 @@
+body {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(max(250px, 40vw), 1fr));
+	gap: 10px;
+}
+
+.header {
+	grid-column: 1 / -1;
+}
+
+.footer {
+	grid-column: 1 / -1;
+}
+
+
+.navigation {
+	grid-row: 2;
+	grid-column: 1 / -1;
+}
+
+.navlist {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin: 0px;
+}
+
+.navitem {
+	display: block;
+}
+
+.navlast {
+	margin-left: auto;
+}
+
+.largearticle {
+	grid-column: 1 / -1;
+}
+
+.aside {
+	display: none;
+}
+
+
+/* ===================================================================================== */
+
+#navitem3 {
+	anchor-name: --nav;
+}
+
+#navlist2 {
+	position: fixed;
+	position-anchor: --nav;
+	top: anchor(bottom);
+	left: anchor(left);
+	width: anchor-size(width);
+	margin: 0;
+	padding: 0;
+}
+
+#navitem3, #navlist3, #navlist4, #navigation2 {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+#navitem3 input, .navitem {
+	border: 1px solid gold;
+	background-color: PeachPuff;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 5px;
+}
+
+.navitem input {
+	border: none;
+	background-color: transparent;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	padding: 0;
+}
+
+#navitem32 {
+	anchor-name: --nav32;
+}
+#navitem34 {
+	anchor-name: --nav34;
+}
+
+#navigation3 {
+	position: fixed;
+	position-anchor: --nav32;
+	position-area: center right;
+	position-try-fallbacks: center left;
+	transform: translateY(37.5%);
+	/* width: anchor-size(width); */
+	margin: 0;
+	padding: 0;
+	border: none;
+	TODO
+	/* position-try-fallbacks: flip-inline; */
+}
+
+/* #navigation4 {
+	position: fixed;
+	position-anchor: --nav34;
+	top: anchor(top);
+	left: anchor(right);
+	width: anchor-size(width);
+	margin: 0;
+	padding: 0;
+	border: none
+} */
