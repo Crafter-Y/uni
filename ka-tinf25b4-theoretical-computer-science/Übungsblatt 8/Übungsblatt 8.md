@@ -72,12 +72,10 @@ Man kann für `Y=f(a)` und `Z=f(Y)` also `Z=f(f(a))` einsetzen, dann sind beide 
 
 (c)
 
-Nicht unifizierbar, da
+Unendlich tief, aber:
 
-- `X=f(Y)`
-- `Y=f(X)`
-
-Dann wäre `X=f(f(X))`, was keine Lösung findet, da X immer weiter in sich selber eingebaut wird.
+- `X=f(Y)` => `X=f(f(X))`
+- `Y=f(X)` => `Y=f(f(Y))`
 
 ---
 
