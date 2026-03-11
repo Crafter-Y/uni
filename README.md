@@ -39,6 +39,7 @@ I may or may not post my transcripts here.
 - [2026-02-25.md](./ka-tinf25b4-linear-algebra/2026-02-25.md)
 - [2026-03-04.md](./ka-tinf25b4-linear-algebra/2026-03-04.md)
 - [Übungsblatt 5.md](./ka-tinf25b4-linear-algebra/Übungsblatt%205.md)
+- [2026-03-11.md](./ka-tinf25b4-linear-algebra/2026-03-11.md)
 
 ### KA-T25B4 Digitaltechnik
 
