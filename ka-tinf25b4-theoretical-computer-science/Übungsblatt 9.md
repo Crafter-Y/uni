@@ -37,9 +37,9 @@ farben(Alu, Beka, Cera, Dola, Erito, Faku, Gela, Hora, Iona) :-
 
 (a) Es geht nicht mit 3 Farben
 
-(b)
+(b) 4 Lösungen
 
-TODO
+(c) 1 Lösung
 
 ---
 
