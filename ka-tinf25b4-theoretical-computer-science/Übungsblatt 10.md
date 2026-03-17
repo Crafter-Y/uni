@@ -49,7 +49,7 @@ main = do
   print (soil (3, 3)) -- 61
   --print (soil (4, 4)) -- timeout
 
-soil :: (Double, Double) -> Double
+soil :: (Int, Int) -> Int
 soil (0, m) = m + 1
 soil (n, 0) = soil (n - 1, 1)
 soil (n, m) = soil (n - 1, soil (n, m - 1))
@@ -59,4 +59,12 @@ soil (n, m) = soil (n - 1, soil (n, m - 1))
 
 3.
 
-TODO
+```
+rle [Int] -> [(Int, Int)]
+rle [] = []
+rle (x:xs) count x 1 xs
+  where count x n [] = [(x,n)]
+    count x n (y:ys)
+      | x == y = count x (n+1) ys
+      | otherwise = (x,n) : count y 1 ys
+```
