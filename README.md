@@ -55,6 +55,7 @@ I may or may not post my transcripts here.
 - [2026-02-26.md](./ka-tinf25b4-digital-technology/2026-02-26.md)
 - [2026-03-05.md](./ka-tinf25b4-digital-technology/2026-03-05/2026-03-05.md)
 - [2026-03-12.md](./ka-tinf25b4-digital-technology/2026-03-12/2026-03-12.md)
+- [2026-03-19.md](./ka-tinf25b4-digital-technology/2026-03-19/2026-03-19.md)
 
 ### KA-T25B4 Projektmanagement
 
