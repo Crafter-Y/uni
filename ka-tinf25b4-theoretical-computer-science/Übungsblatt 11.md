@@ -27,6 +27,33 @@ amplitude([Xh|Xt], X, Min, Max) :- Xh<Min, amplitude(Xt, X, Xh, Max).
 amplitude([Xh|Xt], X, Min, Max) :- Xh>Max, amplitude(Xt, X, Min, Xh).
 ```
 
+---
+
+13.
+
+(a)
+
+```prolog
+wertig(ass, 8).
+wertig(n10, 7).
+wertig(koenig, 6).
+wertig(dame, 5).
+wertig(n9, 4).
+wertig(n8, 3).
+wertig(n7, 2).
+
+besser(Karte1, Karte2) :- wertig(Karte1, Y), wertig(Karte2, Z), Y > Z.
+```
+
+(b)
+
+```prolog
+schlaegt(Farbe1, Wert1, Farbe1, Wert2) :- besser(Wert1, Wert2).
+schlaegt(Farbe1, Wert1, Farbe2, Wert2) :- Farbe1 = herz.
+```
+
+---
+
 Meine (falsche) Lösung
 ```
 main :: IO ()
