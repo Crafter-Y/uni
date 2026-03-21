@@ -1,6 +1,8 @@
 # Übungsblatt 2
 
-Material: [Übungsblatt 2](https://moodle.dhbw.de/mod/resource/view.php?id=363685)
+[ti-i-blatt-02.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=363685)
+
+---
 
 1.
 
@@ -49,6 +51,8 @@ $$
 | 5       | $B$                                                                             | D 4 5.1 5.2      |
 | 6       | $A \land ((B \rightarrow \bot) \rightarrow (A \rightarrow \bot)) \rightarrow B$ | II 1 5           |
 
+---
+
 2.
 
 ![PM](./PM2.svg)
@@ -67,6 +71,8 @@ $$
 | 3       | $A$                                               | D 2 3.1 3.4       |
 | 4       | $((A \rightarrow B) \rightarrow A) \rightarrow A$ | II 1 3            |
 
+---
+
 3.
 
 a) $\exists y : \neg \exists x : F(x,y)$: Es gibt eine Person, der niemand folgt.
@@ -84,9 +90,33 @@ Aus der Aufgabenstellung auf Moodle lassen sich folgende Implikationen feststell
 - $B \rightarrow D$
 - $D \rightarrow F$
 
+---
+
 4.
 
+(a)
+
+![Incredible Proof 6-12](/incredible-proof-machine/6-12.svg)
+
+| Schritt | Aussage                        | Begründung |
+| ------- | ------------------------------ | ---------- |
+| 1       | $\forall x:\forall y:P(x,y)$   | Prämisse   |
+| 2       | $\forall y:P(t_1, y)$          | AE 1       |
+| 3       | $P(t_1, t_2)$                  | AE 2       |
+| 4       | $\forall x:P(t_1, x)$          | AI 3       |
+| 5       | $\forall y: \forall x:P(y, x)$ | AI 4       |
+
+(b)
+
+![Incredible Proof 6-13](/incredible-proof-machine/6-13.svg)
+
+| Schritt | Aussage                          | Begründung |
+| ------- | -------------------------------- | ---------- |
+| 1       | $\exists x : \exists y : P(x,y)$ | Prämisse   |
+
 TODO
+
+---
 
 5.
 
