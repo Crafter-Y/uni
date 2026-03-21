@@ -1,6 +1,6 @@
 # Übungsblatt 10
 
-TODO
+[ti-i-blatt-10.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=363701)
 
 ---
 
@@ -59,11 +59,16 @@ soil (n, m) = soil (n - 1, soil (n, m - 1))
 
 3.
 
-```
-rle [Int] -> [(Int, Int)]
+```haskell
+main :: IO ()
+main = do
+  print (rle [1, 1, 1, 4, 3, 3, 3, 3, 3, 2, 2]) -- [(1,3),(4,1),(3,5),(2,2)]
+  
+rle :: [Int] -> [(Int, Int)]
 rle [] = []
-rle (x:xs) count x 1 xs
-  where count x n [] = [(x,n)]
+rle (x:xs) = count x 1 xs 
+  where
+    count x n [] = [(x,n)]
     count x n (y:ys)
       | x == y = count x (n+1) ys
       | otherwise = (x,n) : count y 1 ys
