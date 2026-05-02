@@ -250,7 +250,9 @@ Other solutions can be found here: [Nimita311/incredible-solution](https://githu
 
 ---
 
-TODO 5.9
+13/12 Steps. The best solution I got for this problem so far.
+
+![](./5-9.svg)
 
 ## Lektion 6
 
