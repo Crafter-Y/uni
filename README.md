@@ -116,6 +116,10 @@ I may or may not post my transcripts here.
 - [Übungsblatt 11](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%2011.md)
 - [2026-05-05.md](./ka-tinf25b4-theoretical-computer-science/2026-05-05.md)
 
+### KA-T25B4 Analysis
+
+- [2026-05-06.md](./ka-tinf25b4-analysis/2026-05-06.md)
+
 ### Incredible Proof Machine
 
 - [Incredible Proof Machine.md](./incredible-proof-machine/Incredible%20Proof%20Machine.md) (Solutions)
