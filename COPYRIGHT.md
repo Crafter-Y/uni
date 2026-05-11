@@ -33,3 +33,12 @@ Explicit permission to share the following files was given:
 - [Block 1 - Part 2.pdf](/external/Block%201%20-Part%202.pdf)
 - [Block 2.pdf](/external/Block%202.pdf)
 - [Block 3.pdf](/external/Block%203.pdf)
+
+© iconfinder.com
+
+Icons were provided through our Moodle with the following notice:
+
+> Icon source: https://www.iconfinder.com/iconsets/essential-app-1
+
+- [off.png](/external/off.png)
+- [on.png](/external/on.png)

@@ -20,7 +20,9 @@ public class CurrencyCalculator extends JFrame {
                 } else {
                     input.setText((number / 1.09 ) + "");
                 }
-            } catch (NumberFormatException _) {}
+            } catch (NumberFormatException _) {
+                input.setText("Input is not a number!");
+            }
         };
 
         JPanel btnRow = new JPanel();
