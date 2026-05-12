@@ -26,6 +26,29 @@ $$
 \end{align*}
 $$
 
+TODO: so machen, dass die folge nun bei den neuen indicies die gleiche folge erzeugt, wenn man sie ausschreiben würde.
+
 ---
 
 TODO
+
+
+---
+
+5.
+
+Man kann abschätzen:
+
+$$
+\frac{1}{n} \cdot (-1) \le \frac{1}{n} \cdot sin(\frac{\pi}{2}n) \le \frac{1}{n} \cdot (1)
+$$
+
+Da
+
+$$
+lim \frac{1}{n} = 0
+$$
+
+TODO
+
+ist der grenzwert der folge 0
