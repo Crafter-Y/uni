@@ -124,6 +124,7 @@ I may or may not post my transcripts here.
 - [2026-05-06.md](./ka-tinf25b4-analysis/2026-05-06.md)
 - [Übungsblatt 1](./ka-tinf25b4-analysis/Übungsblatt%201.md)
 - [2026-05-12.md](./ka-tinf25b4-analysis/2026-05-12.md)
+- [2026-05-13.md](./ka-tinf25b4-analysis/2026-05-13.md)
 
 ### KA-TINF25B4 Marketing
 
