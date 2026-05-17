@@ -1,25 +1,37 @@
 package editor;
 
+import editor.action.ExitAction;
+import editor.action.NewAction;
+import editor.action.OpenAction;
+import editor.action.SaveAction;
+
 import javax.swing.*;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EditorSimple2 extends JFrame {
+public class EditorMenuBar {
+    public static JMenuItem saveButton;
 
-    public EditorSimple2() {
+    public static MenuBar getMenuBar() {
         MenuBar menuBar = new MenuBar();
 
         MenuSection fileToolSection = new MenuSection.Builder()
-                .add(new JMenuItem("Neu"))
-                .add(new JMenuItem("Öffnen"))
+                .add("Neu", new NewAction())
+                .add("Öffnen", new OpenAction())
                 .build();
 
         MenuSection fileCloseSection = new MenuSection.Builder()
                 .add(new JMenuItem("Schließen"))
                 .build();
 
+        saveButton = new JMenuItem("Speichern");
+        saveButton.setEnabled(false);
+        saveButton.addActionListener(new SaveAction());
+        saveButton.setMnemonic(KeyEvent.VK_S); // seems to not work idk
         MenuSection fileSaveSection = new MenuSection.Builder()
-                .add(new JMenuItem("Speichern"))
+                .add(saveButton)
                 .add(new JMenuItem("Speichern unter ..."))
                 .add(new JMenuItem("Als Website speichern"))
                 .add(new JMenuItem("Suchen"))
@@ -74,7 +86,7 @@ public class EditorSimple2 extends JFrame {
                 .build();
 
         MenuSection closeSection = new MenuSection.Builder()
-                .add(new JMenuItem("Beenden"))
+                .add("Beenden", new ExitAction())
                 .build();
 
         Menu file = new Menu.Builder()
@@ -134,16 +146,9 @@ public class EditorSimple2 extends JFrame {
 
         menuBar.add(edit);
 
-        this.setJMenuBar(menuBar);
-        this.initialize();
+        return menuBar;
     }
 
-    private void initialize() {
-        this.setTitle("Editor");
-        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.setSize(800, 800);
-        this.setVisible(true);
-    }
 
     private static class Menu implements Displayable {
         private final JMenu menu;
@@ -222,6 +227,15 @@ public class EditorSimple2 extends JFrame {
                 return this;
             }
 
+            public Builder add(String itemName, ActionListener action) {
+                JMenuItem item = new JMenuItem(itemName);
+                item.addActionListener(action);
+
+                this.menu.addItem(item);
+
+                return this;
+            }
+
             public MenuSection build() {
                 return this.menu;
             }
@@ -233,23 +247,13 @@ public class EditorSimple2 extends JFrame {
         }
     }
 
-    private static class MenuBar extends JMenuBar {
+    public static class MenuBar extends JMenuBar {
         public void add(Menu menu) {
             super.add(menu.getMenu());
         }
     }
 
-    public static class Factory {
-        public static EditorSimple2 getEditorSimple() {
-            return new EditorSimple2();
-        }
-    }
-
     private interface Displayable {
         List<JMenuItem> getItems();
-    }
-
-    public static void main() {
-        EditorSimple2 editorSimple = EditorSimple2.Factory.getEditorSimple();
     }
 }
