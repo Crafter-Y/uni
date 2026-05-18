@@ -32,7 +32,6 @@ public class BinaryNumber extends JFrame {
             switchButton.addActionListener(_ -> {
                 int sum = 0;
                 for (int j = 0; j < 8; j++) {
-
                     if (toggles.get(j).isSelected()) {
                         sum += (int) Math.pow(2, 7-j);
                     }
