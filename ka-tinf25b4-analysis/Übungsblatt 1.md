@@ -20,18 +20,23 @@ $$
 
 $$
 \begin{align*}
-(b_n)_{n=-4}^{\infty} &= (118 \space 098, 8019, 486, 27, 2, ...) \\
-(c_n)_{n=3}^{\infty} &= (\frac{11}{729}, \frac{2}{729}, \frac{1}{2187}, \frac{38}{531 \space 441}) \\
-(c_n)_{n=2}^{-\infty} &= (\frac{2}{27}, \frac{1}{3}, 2, 27, 486, ...) \\
+(b_n)_{n=-4}^{\infty} &= \frac{2 + (n+4)^2}{9^{n+4}} \\
+(c_n)_{n=3}^{\infty} &= \frac{2 + (n-3)^2}{9^{n-3}} \\
+(c_n)_{n=2}^{-\infty} &= \frac{2 + (-2-n)^2}{9^{-2-n}} \\
 \end{align*}
 $$
 
-TODO: so machen, dass die folge nun bei den neuen indicies die gleiche folge erzeugt, wenn man sie ausschreiben würde.
-
 ---
+
+3.
 
 TODO
 
+---
+
+4.
+
+TODO
 
 ---
 
@@ -46,9 +51,85 @@ $$
 Da
 
 $$
-lim \frac{1}{n} = 0
+\lim_{n \rightarrow \infty} \frac{1}{n} = 0
 $$
 
-TODO
+ist der grenzwert der Folge 0.
 
-ist der grenzwert der folge 0
+---
+
+6.
+
+$$
+\begin{align}
+&\lim_{n \rightarrow \infty} \sqrt{n^2+n} - n \\
+=&\lim_{n \rightarrow \infty} \frac{(\sqrt{n^2+n} - n)(\sqrt{n^2+n} + n)}{\sqrt{n^2+n} + n} \\
+=&\lim_{n \rightarrow \infty} \frac{(\sqrt{n^2+n})^2 - n^2}{\sqrt{n^2+n} + n} \\
+=&\lim_{n \rightarrow \infty} \frac{n^2+n - n^2}{\sqrt{n^2+n} + n} \\
+=&\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n} + n} \\
+=&\lim_{n \rightarrow \infty} \frac{n}{n \cdot \sqrt{1+\frac{1}{n}} + n} \\
+=&\lim_{n \rightarrow \infty} \frac{n}{n \cdot (\sqrt{1+\frac{1}{n}} + 1)} \\
+=&\lim_{n \rightarrow \infty} \frac{1}{\sqrt{1+\frac{1}{n}} + 1} \\
+=&\frac{1}{\sqrt{1+0} + 1} \\
+=&\frac{1}{2} \\
+\end{align}
+$$
+
+---
+
+7.
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} \sqrt{n+1} - \sqrt{n} \\
+=& \lim_{n \rightarrow \infty} \frac{(\sqrt{n+1} - \sqrt{n})(\sqrt{n+1} + \sqrt{n})}{\sqrt{n+1} + \sqrt{n}} \\
+=& \lim_{n \rightarrow \infty} \frac{(\sqrt{n+1})^2 - (\sqrt{n})^2}{\sqrt{n+1} + \sqrt{n}} \\
+=& \lim_{n \rightarrow \infty} \frac{n+1-n}{\sqrt{n+1} + \sqrt{n}} \\
+=& \lim_{n \rightarrow \infty} \frac{1}{\sqrt{n+1} + \sqrt{n}} \\
+=& \space 0
+\end{align*}
+$$
+
+---
+
+8.
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} (\frac{n+3}{2n+8})^{37} \\
+=&\lim_{n \rightarrow \infty} (\frac{1+\frac{3}{n}}{2+\frac{8}{n}})^{37} \\
+=& (\frac{1}{2})^{37} \\
+\end{align*}
+$$
+
+---
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} (\frac{31}{n^2}+\frac{2n}{n}+7)^4 \\
+=& \lim_{n \rightarrow \infty} (\frac{31}{n^2}+2+7)^4 \\
+=& (2+7)^4 \\
+=& \space 9^4 = 6561 \\
+\end{align*}
+$$
+
+---
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} \frac{1}{(2+\frac{1}{n})^8} \\
+=& \frac{1}{2^8} \\
+=& \frac{1}{256}
+\end{align*}
+$$
+
+---
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} \frac{\sqrt[n]{n^2} + \sqrt{2} \cdot 4}{4 \sqrt[n]{n} + \sqrt[n]{4n}} \\
+=&\lim_{n \rightarrow \infty} \frac{\sqrt[n]{n} \cdot \sqrt[n]{n} + \sqrt{2} \cdot 4}{4 \sqrt[n]{n} + \sqrt[n]{4} \cdot \sqrt[n]{n}} \\
+=& \frac{1 + \sqrt{2} \cdot 4}{4 + 1} \\
+=& \frac{1 + 4\sqrt{2}}{5}
+\end{align*}
+$$
