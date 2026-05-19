@@ -119,6 +119,7 @@ I may or may not post my transcripts here.
 - [Übungsblatt 10](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%2010.md)
 - [Übungsblatt 11](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%2011.md)
 - [2026-05-05.md](./ka-tinf25b4-theoretical-computer-science/2026-05-05.md)
+- [2026-05-19.md](./ka-tinf25b4-theoretical-computer-science/2026-05-19.md)
 
 ### KA-T25B4 Analysis
 
