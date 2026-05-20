@@ -138,7 +138,20 @@ Die Folge ist Konvergent nach dem Satz von Bolzano:
 
 b)
 
+Untersuchen der folgenden Folge:
+
+$$
+b_n = \frac{n}{n+1}
+$$
+
+Monotonie: $a_{n+1} \le a_n$
+
+$$
+\begin{align*}
+\frac{n+1}{(n+1)+1} \le \frac{n}{n+1} 
 TODO
+\end{align*}
+$$
 
 c)
 
