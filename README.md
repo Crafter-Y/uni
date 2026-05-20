@@ -127,6 +127,9 @@ I may or may not post my transcripts here.
 - [Übungsblatt 1](./ka-tinf25b4-analysis/Übungsblatt%201.md)
 - [2026-05-12.md](./ka-tinf25b4-analysis/2026-05-12.md)
 - [2026-05-13.md](./ka-tinf25b4-analysis/2026-05-13.md)
+- [Übungsblatt 2](./ka-tinf25b4-analysis/Übungsblatt%202.md)
+- [Übungsblatt Vollständige Induktion](./ka-tinf25b4-analysis/Übungsblatt%20Vollständige%20Induktion.md)
+- [2026-05-20.md](./ka-tinf25b4-analysis/2026-05-20.md)
 
 ### KA-TINF25B4 Marketing
 
