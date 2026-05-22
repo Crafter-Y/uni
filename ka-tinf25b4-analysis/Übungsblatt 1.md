@@ -148,10 +148,41 @@ Monotonie: $a_{n+1} \le a_n$
 
 $$
 \begin{align*}
-\frac{n+1}{(n+1)+1} \le \frac{n}{n+1} 
-TODO
+\frac{n+1}{(n+1)+1} \stackrel{!}{\le} \frac{n}{n+1} \\ 
+\frac{n+1}{n+2} \stackrel{!}{\le} \frac{n}{n+1} \\
+\frac{n+1}{n+2} - \frac{n}{n+1} \stackrel{!}{\le} 0 \\
+\frac{(n+1)^2}{(n+2)(n+1)} - \frac{n(n+2)}{(n+1)(n+2)} \stackrel{!}{\le} 0 \\
+\frac{(n+1)^2 - n(n+2)}{(n+2)(n+1)} \stackrel{!}{\le} 0 \\
+\frac{n^2+2n+1 - n^2-2n}{(n+2)(n+1)} \stackrel{!}{\le} 0 \\
+\frac{1}{(n+2)(n+1)} \gt 0 \\
 \end{align*}
 $$
+
+-> monoton steigend
+
+Beschränktheit:
+
+$$
+0 \lt \frac{1}{n} \le 1 \quad \text{Da } n \in \mathbb{N} \Rightarrow a_n \gt 0 \text{ und momoton steigend}
+$$
+
+Grenzwert:
+
+$$
+\begin{align*}
+\lim_{n \rightarrow \infty} \frac{n}{n+1} \\
+= \lim_{n \rightarrow \infty} \frac{1}{1+\frac{1}{n}} \\
+= \frac{1}{1} \\
+= 1\\
+\end{align*}
+$$
+
+Konvergenz:
+
+Die Folge ist Konvergent nach dem Satz von Bolzano:
+
+- Beschränkt
+- Monoton
 
 c)
 
