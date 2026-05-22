@@ -23,6 +23,10 @@ Explicit permission to share the following files was given:
 
 - [Webengineering I - 1 HTML.pdf](/external/Webengineering%20I%20-%201%20HTML.pdf)
 - [Webengineering I - 2 CSS.pdf](/external/Webengineering%20I%20-%202%20CSS.pdf)
+- [Webengineering I - 3 Servlets.pdf](/external/Webengineering%20I%20-%203%20Servlets.pdf)
+- [Webengineering I - 4 JSP und Beans.pdf](/external/Webengineering%20I%20-%204%20JSPs%20und%20Beans.pdf)
+- [Webengineering I - 5 Model 2.pdf](/external/Webengineering%20I%20-%205%20Model%202.pdf)
+- [Webengineering I - 6 JavaScript und Ajax.pdf](/external/Webengineering%20I%20-%206%20JavaScript%20und%20Ajax.pdf)
 
 © Ali Rezvani @ DHBW Karlsruhe
 
