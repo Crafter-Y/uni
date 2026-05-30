@@ -1,26 +1,35 @@
 package months;
 
+import java.util.Calendar;
+
 public enum Months {
-    JANUAR("Januar", 31, "Hartung, Eismond"),
-    FEBRUAR("Februar", 28, "Hornung, Schmelzmond, Taumond, Narrenmond, Rebmond, Hintester"),
-    MÄRZ("März", 31, "Lenzing, Lenzmond"),
+    JANUARY("Januar", 31, "Hartung, Eismond"),
+    FEBRUARY("Februar", 28, "Hornung, Schmelzmond, Taumond, Narrenmond, Rebmond, Hintester"),
+    MARCH("März", 31, "Lenzing, Lenzmond"),
     APRIL("April", 30, "Launing, Ostermond"),
-    MAI("Mai", 31, "Winnemond, Blumenmond"),
-    JUNI("Juni", 30, "Brachet, Brachmond"),
-    JULI("Juli", 31, "Heuert, Heumond"),
+    MAY("Mai", 31, "Winnemond, Blumenmond"),
+    JUNE("Juni", 30, "Brachet, Brachmond"),
+    JULY("Juli", 31, "Heuert, Heumond"),
     AUGUST("August", 31, "Ernting, Erntemond, Bisemond"),
     SEPTEMBER("September", 30, "Scheiding, Herbstmond"),
-    OKTOBER("Oktober", 31, "Gilbhart, Gilbhard, Weinmond"),
+    OCTOBER("Oktober", 31, "Gilbhart, Gilbhard, Weinmond"),
     NOVEMBER("November", 30, "Nebelung, Windmond, Wintermond"),
-    DEZEMBER("Dezember", 31, "Julmond, Heilmond, Christmond, Dustermond");
+    DECEMBER("Dezember", 31, "Julmond, Heilmond, Christmond, Dustermond");
 
-    private String name;
-    private int days;
-    private String ancientNames;
+    private final String name;
+    private final int days;
+    private final String ancientNames;
 
     Months(String name, int days, String ancientNames) {
         this.name = name;
         this.days = days;
         this.ancientNames = ancientNames;
+    }
+
+    public static void main() {
+        int month = Calendar.getInstance().get(Calendar.MONTH);
+        Months entry = Months.values()[month];
+
+        System.out.printf("Der %s hat %d Tage und hieß früher '%s'", entry.name, entry.days, entry.ancientNames);
     }
 }
