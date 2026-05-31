@@ -9,6 +9,7 @@ Explicit permission to share the following files was given:
 - [Betragsungleichung.pdf](/external/Betragsungleichung.pdf)
 - [Trigonometrische Gleichungen.pdf](/external/Trigonometrische%20Gleichungen.pdf)
 - [Aussagenlogik.pdf](/external/Aussagenlogik.pdf)
+- [DHBW Mathe Vorkurs Grenzwert Stetigkeit.pdf](/external/DHBW%20Mathe%20Vorkurs%20Grenzwert%20Stetigkeit.pdf)
 
 © Dr. Arno Mielke @ DHBW Karlsruhe
 
