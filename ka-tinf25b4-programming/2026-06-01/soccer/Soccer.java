@@ -63,6 +63,8 @@ public class Soccer {
 
         long goals = players.stream()
                 .map(player -> player.goals)
-                . /// TODO
+                .mapToInt(Integer::intValue)
+                .sum();
+        System.out.println("Count of goals of all players: " + goals);
     }
 }
