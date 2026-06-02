@@ -25,6 +25,7 @@ I may or may not post my transcripts here.
 - [2026-03-18.md](./ka-tinf25b4-webengineering/2026-03-18/2026-03-18.md)
 - [2026-05-04.md](./ka-tinf25b4-webengineering/2026-05-04/2026-05-04.md)
 - [2026-05-13.md](./ka-tinf25b4-webengineering/2026-05-13/2026-05-13.md)
+- [2026-06-02.md](./ka-tinf25b4-webengineering/2026-06-02/2026-06-02.md)
 
 ### KA-T25B4 Lineare Algebra
 
