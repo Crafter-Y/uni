@@ -1,4 +1,4 @@
-# Übungsblatt 2
+# Übungsblatt 3
 
 [ti-ii-blatt-03.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=455970)
 
@@ -16,7 +16,7 @@ $A_1$:
 
 $V = (3,2,1,4,9)$
 
-$C = (3,1,2,2,5)$
+$C = (3,1,3,2,5)$
 
 $R = (1,2,4,4,5,6)$
 
