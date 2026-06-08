@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@4.0.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui@1.14.2/dist/jquery-ui.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/jquery-ui@1.14.2/themes/base/theme.min.css" rel="stylesheet">
+</head>
+<body>
+    <table style="min-width: 100%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Birth Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+
+        </tbody>
+    </table>
+    <script>
+        const entries = [
+            {
+                "full_name": "Melanie Wehner",
+                "phone": "+13444508223",
+                "email": "Charlotte.Purdy0@hotmail.com",
+                "dob": "2008-01-09"
+            },
+            {
+                "full_name": "Ira Keeling",
+                "phone": "+15793225846",
+                "email": "Oren_Sawayn@hotmail.com",
+                "dob": "1981-10-10"
+            },
+            {
+                "full_name": "Ivan Lynch",
+                "phone": "+19886724590",
+                "email": "Cierra.Homenick@hotmail.com",
+                "dob": "2005-04-05"
+            },
+            {
+                "full_name": "Freda Brekke",
+                "phone": "+1850062507",
+                "email": "Nico86@gmail.com",
+                "dob": "1997-12-29"
+            },
+            {
+                "full_name": "Rodney Ebert",
+                "phone": "+13508198570",
+                "email": "Mackenzie_OKeefe6@hotmail.com",
+                "dob": "2000-09-15"
+            }
+        ]
+
+        $(() => {
+            $("#table").sortable()
+            
+            entries.forEach(entry => {
+                $("#table").append(`<tr class="row">
+                    <td>${entry.full_name}</td>
+                    <td>${entry.phone}</td>
+                    <td>${entry.email}</td>
+                    <td class="datepicker">${entry.dob}</td>
+                    <td keep class="btns"><button class='delete'>Delete</button></td>
+                </tr>`)
+            })
+
+            $(".row").on("click", e => {
+                if (!$(e.currentTarget).attr("open")) {
+                    $(e.currentTarget).attr("open", true)
+
+                    $(e.currentTarget).children().each((_, child) => {
+                        if (child.getAttribute("keep") === null) $(child).html(`<input type="text" value="${child.textContent}" />`)
+                    })
+
+                    const saveBtn = $("<button class='save'>Save</button>")
+
+                    $(e.currentTarget).find(".btns").append(saveBtn)
+
+                    saveBtn.on("click", e => {
+                        e.stopPropagation()
+                        $(e.currentTarget).parent().parent().children().each((_, child) => {
+                           if (child.getAttribute("keep") === null) $(child).html($(child).children().first().val())
+                        })
+                        $(e.currentTarget).parent().parent().attr("open", "")
+
+                        $(e.currentTarget).remove()
+                    })
+
+                    $(".datepicker input").datepicker({ dateFormat: 'yy-mm-dd' });
+                }
+            })
+
+            $(".delete").on("click", e => {
+                e.stopPropagation()
+                $(e.currentTarget).parent().parent().remove()
+            })
+        })
+    </script>
+</body>
+</html>
