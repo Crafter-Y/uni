@@ -73,6 +73,7 @@ I may or may not post my transcripts here.
 - [2026-03-05.md](./ka-tinf25b4-project-management/2026-03-05.md)
 - [2026-03-12.md](./ka-tinf25b4-project-management/2026-03-12.md)
 - [2026-05-21.md](./ka-tinf25b4-project-management/2026-05-21.md)
+- [2026-06-11.md](./ka-tinf25b4-project-management/2026-06-11.md)
 
 ### KA-T25B4 Intercultural Communication
 
