@@ -147,6 +147,7 @@ I may or may not post my transcripts here.
 ### KA-TINF25B4 Marketing
 
 - [2026-05-07.md](./ka-tinf25b4-marketing/2026-05-07.md)
+- [2026-06-11.md](./ka-tinf25b4-marketing/2026-06-11.md)
 
 ### KA-TINF25B4 Recht
 
