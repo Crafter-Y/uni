@@ -321,4 +321,4 @@ Other solutions can be found here: [Nimita311/incredible-solution](https://githu
 
 ---
 
-TODO 6.17
+![](./6-17.svg)
