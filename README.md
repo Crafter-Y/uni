@@ -105,6 +105,7 @@ I may or may not post my transcripts here.
 - [2026-06-01.md](./ka-tinf25b4-programming/2026-06-01/2026-06-01.md)
 - [2026-06-08.md](./ka-tinf25b4-programming/2026-06-08/2026-06-08.md)
 - [2026-06-15.md](./ka-tinf25b4-programming/2026-06-15/2026-06-15.md)
+- [2026-06-22.md](./ka-tinf25b4-programming/2026-06-22/2026-06-22.md)
 
 ### KA-T25B4 Theoretische Informatik
 
