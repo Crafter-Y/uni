@@ -79,5 +79,54 @@ $l(31) = 52
 
 4.
 
+| Teilstring | Größter Rand | Länge Rand |
+| ---------- | ------------ | ---------- |
+| k          | $\epsilon$   | 0          |
+| ku         | $\epsilon$   | 0          |
+| kuc        | $\epsilon$   | 0          |
+| kuck       |
+| kucku      |
+| kuckuc     |
+| kuckuck    | kuck         | 4          |
+
 TODO
+
+```
+ckucukukuckkuckuckkuckuckuckuc
+------------------------------
+k
+ kuck
+     kuc
+       kucku
+          ku
+           kuckuck
+              kucku
+                 ku
+                  kuckuck
+                     kuckuck
+                        kuckuc
+```
+
+---
+
+5.
+
+| ` ` | .   | A   | D   | K   | a   | d   | e   | f   | k   | n   | r   | s   | u   | v   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+TODO
+
+```
+Der Ausverkauf der aufkaufenden Kaufenden
+-----------------------------------------
+aufkauf
+       aufkauf
+          aufkauf
+                 aufkauf
+                   aufkauf
+                    aufkauf
+                           aufkauf
+                             aufkauf
+                                 aufkauf
+```
 
