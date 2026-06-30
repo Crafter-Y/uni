@@ -141,6 +141,7 @@ I may or may not post my transcripts here.
 - [2026-06-16.md](./ka-tinf25b4-theoretical-computer-science/2026-06-16.md)
 - [Übungsblatt 5](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-5.md)
 - [2026-06-23.md](./ka-tinf25b4-theoretical-computer-science/2026-06-23.md)
+- [2026-06-30.md](./ka-tinf25b4-theoretical-computer-science/2026-06-30.md)
 
 ### KA-T25B4 Analysis
 
