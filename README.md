@@ -166,16 +166,6 @@ I may or may not post my transcripts here.
 - [2026-06-25.md](./ka-tinf25b4-marketing/2026-06-25.md)
 - [2026-07-02.md](./ka-tinf25b4-marketing/2026-07-02.md)
 
-### KA-TINF25B4 Recht
-
-- [2026-05-20.md](./ka-tinf25b4-law/2026-05-20.md)
-- [2026-05-27.md](./ka-tinf25b4-law/2026-05-27.md)
-- [2026-06-12.md](./ka-tinf25b4-law/2026-06-12.md)
-
-### KA-TINF25B4 BWL
-
-- [2026-05-21.md](./ka-tinf25b4-BWL/2026-05-21.md)
-
 ### Incredible Proof Machine
 
 - [Incredible Proof Machine.md](./incredible-proof-machine/Incredible%20Proof%20Machine.md) (Solutions)
