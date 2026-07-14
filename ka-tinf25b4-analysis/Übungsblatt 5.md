@@ -6,7 +6,46 @@
 
 1.
 
-TODO
+Untersumme:
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} \frac{1}{n} \sum_{k = 0}^{n-1} \Big(\frac{k}{n}\Big)^2 \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n} \sum_{k = 0}^{n-1} \frac{k}{n} \cdot \frac{k}{n} \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n} \sum_{k = 0}^{n-1} \frac{1}{n} \cdot k \cdot \frac{1}{n} \cdot k \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n} \sum_{k = 0}^{n-1} \frac{1}{n^2} \cdot k^2 \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n} \cdot \frac{1}{n^2} \sum_{k = 0}^{n-1} k^2 \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n^3}\sum_{k = 0}^{n-1} k^2 \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n^3}\Bigg(\Big(\sum_{k = 0}^{n-1} k^2\Big) + n^2 - n^2\Bigg) \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n^3}\Bigg(\Big(\sum_{k = 0}^{n} k^2\Big) - n^2\Bigg) \\
+=&\lim_{n \rightarrow \infty} \frac{1}{n^3} \Big( -n^2 + \frac{n \cdot (n-1)(2n-1)}{6} \Big) \\
+=&\lim_{n \rightarrow \infty} -\frac{1}{n} + \frac{1}{n^2} \Big(\frac{2n^2+3n+1}{6}\Big) \\
+=&\lim_{n \rightarrow \infty} -\frac{1}{n} + \frac{1}{n^2} \Big(\frac{2n^2}{6}+\frac{3n}{6}+\frac{1}{6}\Big) \\
+=&\lim_{n \rightarrow \infty} -\frac{1}{n} + \frac{2n^2}{6n^2} + \frac{3n}{6n^2} + \frac{1}{6n^2} \\
+=&\lim_{n \rightarrow \infty} -\frac{1}{n} + \frac{1}{3} + \frac{1}{2} \cdot \frac{1}{n} + \frac{1}{6} \cdot \frac{1}{n^2} \\
+=&0 + \frac{1}{3} + 0 \\
+=& \frac{1}{3}
+\end{align*}
+$$
+
+Obersumme:
+
+$$
+\begin{align*}
+&\lim_{n \rightarrow \infty} \frac{1}{n} \sum_{k = 1}^{n} \Big(\frac{k}{n}\Big)^2 \\
+=&\lim_{n \rightarrow \infty}\frac{1}{n^3} \sum_{k = 1}^{n} k^2 \\
+=&\lim_{n \rightarrow \infty}\frac{1}{n^3} \sum_{k = 0}^{n} k^2 \\
+=&\dots \\
+=&\frac{1}{3}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+\frac{1}{3} \le \int_0^1 x^2 dx \le \frac{1}{3} \\
+\int_0^1 x^2 dx = \frac{1}{3}
+\end{align*}
+$$
 
 ---
 
@@ -66,3 +105,12 @@ TODO
 
 4.
 
+a)
+
+$$
+\begin{align*}
+\int_1^\infty \frac{1}{x^2} dx \\
+\newline
+\frac{1}{x^2} = x^{-2} \Rightarrow -x^{-1}
+\end{align*}
+$$
