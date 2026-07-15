@@ -176,6 +176,7 @@ I may or may not post my transcripts here.
 - [2026-06-25.md](./ka-tinf25b4-marketing/2026-06-25.md)
 - [2026-07-02.md](./ka-tinf25b4-marketing/2026-07-02.md)
 - [2026-07-09.md](./ka-tinf25b4-marketing/2026-07-09.md)
+- [Übungsblatt 1.md](./ka-tinf25b4-marketing/Übungsblatt%201.md)
 
 ### Incredible Proof Machine
 
