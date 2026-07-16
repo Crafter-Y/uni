@@ -12,6 +12,8 @@ a)
 
 Absatzsicherung für Gegenwart und Zukunft. In eigenen Worten: Geld
 
+Kunden Gewinnen und langfristig halten
+
 b)
 
 > Beschreiben Sie die einzelnen Schritte des Marketingprozesses (Marketingkonzeptes).
@@ -25,8 +27,6 @@ b)
 - Implementierung
 - Marketingcontrolling
 
-TODO
-
 ---
 
 2.
@@ -37,21 +37,19 @@ Markttheorien versuchen das Funktionieren von Märkten und den damit in Verbindu
 
 b)
 
-Mikroökonomie
-	Angebot und Nachfrage  für bestimmte Leistungen treffen aufeinander und es kommt in fast jedem Fall zu einer Preisbildung. Dies findet auf einem realen oder einem imaginären Markt aufeinander. 
-Marktprozesstheorie
-	Individuum steht im Vordergrund, diese treten in verschiedenster Weise miteinander in Kontakt. Produkte werden völlig unterschiedlich bewertet. Alle sozioökonomischen Effekte können auf das Individuum zurück geführt werden.
+Mikroökonomie: Angebot und Nachfrage für bestimmte Leistungen treffen aufeinander und es kommt in fast jedem Fall zu einer Preisbildung. Dies findet auf einem realen oder einem imaginären Markt aufeinander. 
+
+Marktprozesstheorie: Individuum steht im Vordergrund, diese treten in verschiedenster Weise miteinander in Kontakt. Produkte werden völlig unterschiedlich bewertet. Alle sozioökonomischen Effekte können auf das Individuum zurück geführt werden.
 
 c)
 
-Ein vollkommener Markt besteht aus den folgenden Kriterien: 
-	• Homogene Wirtschaftsgüter
-	• Präferenzlose Marktteilnehmer (zeitlich, räumlich, sachlich, persönlich)
-	• Vollständige Markttransparenz
-	• Marktteilnehmer verhalten sich als rationale Nutzenmaximierer
+Ein vollkommener Markt besteht aus den folgenden Kriterien:
+- Homogene Wirtschaftsgüter
+- Präferenzlose Marktteilnehmer (zeitlich, räumlich, sachlich, persönlich)
+- Vollständige Markttransparenz
+- Marktteilnehmer verhalten sich als rationale Nutzenmaximierer
 
 Ein unvollkommener Markt erfüllt mindestens eines dieser Kriterien nicht.
-
 
 d)
 
@@ -60,15 +58,15 @@ d)
 - Ökonomisches Umfeld: Inflation, Arbeitslosenquote
 - Ökologisches Umfeld: Umwelt, Naturkatastrophen
 - Technologisches Umfeld: Neue Technologien, KI, Digitalisierung
-- Kulturelles Umfeld: Wertewechsel, Lebensstile, Religion
-- Gesellschaftliches Umfeld: Demografischer Wandel, Bildungsniveau
+- Kulturelles Umfeld: Lebensstile, Religion
+- Gesellschaftliches Umfeld: Demografischer Wandel, Bildungsniveau, Wertewechsel
 - Rechtlich-politisches Umfeld: Gesetze, Richtlinien
 
 e)
 
 > Erläutern Sie in eigenen Worten das Entstehen von unternehmensindividuellen Marktprozessen nach der Marktprozesstheorie.
 
-TODO
+Verschiedene Invividuen interagieren auf Märkten. Diese sind in einer Konstellation miteinander Verbunden. Dazu gibt es noch externe Einflussfaktoren. Daraus resultieren die Marktprozesse. Aus der Analyse von Teilnehmern und und dem Umfeld entstehen die Prozesse.
 
 ---
 
@@ -78,13 +76,13 @@ a)
 
 > Was versteht man unter „Marktabgrenzung“?
 
-Die Bestimmung des relevanten Marktes eines Unternehmens. Das Umfasst das Bestimmen von Nachfragern, Marktanteil, Konkurrenten
+Die Bestimmung des relevanten Marktes eines Unternehmens. Das Umfasst das Bestimmen von Nachfragern, Marktanteil, Konkurrenten, Einflussfaktoren
 
 b)
 
 > Nach welchen vier unterschiedlichen Kriterien wird der relevante Markt eines Unternehmens abgegrenzt?
 
-Sachlich, zeitlich, räumlich, marktstufenbezogen
+Sachlich, zeitlich, räumlich, marktstufenbezogen (B2B, B2C, B2G, B2A)
 
 c)
 
@@ -95,6 +93,8 @@ TODO
 d)
 
 > Was versteht man unter „Marktsegmentierung“?
+
+Abgrenzung in homogene Segmente
 
 Marktsegmentierung lässt sich in 3 Schritte aufteilen:
 
@@ -153,3 +153,14 @@ d)
 
 e)
 
+TODO
+
+f)
+
+Manche Kunden möchten keine Tendenz abgeben und kreuzen die Mitte an. Man kann dagegen eine suggestivfrage stellen oder eine gerade Anzahl an Antwortmöglichkeiten geben.
+
+---
+
+4.
+
+TODO
