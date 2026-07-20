@@ -109,6 +109,8 @@ I may or may not post my transcripts here.
 
 ### KA-T25B4 Theoretische Informatik
 
+1. Semester
+
 - [2026-01-09.md](./ka-tinf25b4-theoretical-computer-science/2026-01-13.md)
 - [Übungsblatt 1](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%201.md)
 - [2026-01-20.md](./ka-tinf25b4-theoretical-computer-science/2026-01-20/2026-01-20.md)
@@ -130,6 +132,9 @@ I may or may not post my transcripts here.
 - [2026-03-13.md](./ka-tinf25b4-theoretical-computer-science/2026-03-13.md)
 - [Übungsblatt 10](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%2010.md)
 - [Übungsblatt 11](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%2011.md)
+
+2. Semester
+
 - [2026-05-05.md](./ka-tinf25b4-theoretical-computer-science/2026-05-05.md)
 - [2026-05-19.md](./ka-tinf25b4-theoretical-computer-science/2026-05-19.md)
 - [Übungsblatt 1](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-1.md)
@@ -148,7 +153,9 @@ I may or may not post my transcripts here.
 - [Übungsblatt 8](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-8.md)
 - [2026-07-07.md](./ka-tinf25b4-theoretical-computer-science/2026-07-07.md)
 - [Übungsblatt 9](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-9.md)
-- [2026-07-14.md](./ka-tinf25b4-theoretical-computer-science/2026-07-14.md) 
+- [2026-07-14.md](./ka-tinf25b4-theoretical-computer-science/2026-07-14.md)
+- [Übungsblatt 10](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-10.md)
+- [Übungsblatt 11](./ka-tinf25b4-theoretical-computer-science/Übungsblatt%20S2-11.md)
 
 ### KA-T25B4 Analysis
 
