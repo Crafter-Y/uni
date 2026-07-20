@@ -1,6 +1,6 @@
 # Übungsblatt 2
 
-TODO: source
+[reihen_übung.pdf](https://moodle.dhbw.de/mod/resource/view.php?id=457573)
 
 ---
 
@@ -17,6 +17,8 @@ a)
 $$
 = \sum_{k=0}^\infty (-1)^k \cdot (\frac{1}{2})^k = \sum_{k=0}^\infty (\frac{-1}{2})^k = \frac{1}{1-(-\frac{1}{2})} = \frac{2}{3}
 $$
+
+b)
 
 TODO b,c
 
@@ -122,10 +124,45 @@ R=1
 
 b)
 
-TODO
+$$
+\sum_{k=0}^\infty \frac{x^k}{k!} = \sum_{k=0}^\infty \frac{1}{k!} \cdot x^k
+$$
+
+Entwicklungspunkt $x_0 = 0$
+
+$$
+\begin{align*}
+r &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
+&= \lim_{k \rightarrow \infty} \frac{1}{k!} \cdot \frac{(k+1)!}{1} \\
+&= \lim_{k \rightarrow \infty} \frac{(k+1)\cdot k!}{k!} \\
+&= \lim_{k \rightarrow \infty} k+1 \\
+&= \infty
+\end{align*}
+$$
 
 c)
 
-TODO
+Entwicklungspunkt $x_0 = 0$
 
-$x_0 = 0 => R = 1$
+
+$$
+\sum_{k=0}^\infty x^k = \sum_{k=0}^\infty \underbrace{1}_{s_n} \cdot x^k 
+$$
+
+$$
+r = \lim_{k \rightarrow \infty} 1 = 0
+$$
+
+d)
+
+Entwicklungspunkt $x_0 = 0$
+
+$$
+\begin{align*}
+r &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
+&= \lim_{k \rightarrow \infty} \frac{1}{k^2} \cdot \frac{(k+1)^2}{1} \\
+&= \lim_{k \rightarrow \infty} \frac{(k+1)^2}{k^2} \\ 
+&= \lim_{k \rightarrow \infty} \frac{k^2 + 2k + 1}{k^2} \\
+&= 1
+\end{align*}
+$$

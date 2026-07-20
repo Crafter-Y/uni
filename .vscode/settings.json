@@ -10,5 +10,6 @@
         "editor.formatOnSave": true
     },
     "markdown-preview-enhanced.mathRenderingOption": "MathJax",
-    "markdown-preview-enhanced.liveUpdate": true
+    "markdown-preview-enhanced.liveUpdate": false,
+    "markdown-preview-enhanced.liveUpdateDebounceMs": 1000
 }
