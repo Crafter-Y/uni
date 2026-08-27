@@ -253,9 +253,19 @@ $$
 \end{align*}
 $$
 
+---
+
 5.
 
-TODO
+Zu zeigen: In einer Gruppe $G$ gilt für jedes $g \in G$
+
+$$(g^{-1})^{-1} = g$$
+
+$g^{-1}$ ist per Definition das eindeutige Element mit $g * g^{-1} = e$ und $g^{-1} * g = e$. Die zweite Gleichung sagt aber gerade, dass $g$ ein inverses Element zu $g^{-1}$ ist. Wegen der Eindeutigkeit des Inversen folgt
+
+$$(g^{-1})^{-1} = g \quad \square$$
+
+---
 
 6.
 
@@ -281,6 +291,8 @@ $\phi(x) = \phi(y) \Rightarrow x = y$
 
 $\phi^{-1}(a) * \phi^{-1}(b) = \phi^{-1}(a \circ b)$
 
+---
+
 7.
 
 $$
@@ -305,6 +317,38 @@ $$
 a(b^{-1}) \in H \Rightarrow ab \in H
 $$
 
+---
+
 11.
 
-TODO
+Gegeben: $x = a + ib \in \mathbb{C}$ mit $x \neq 0$ und $a,b \in \mathbb{R}$. Gesucht sind $c,d \in \mathbb{R}$ mit $x^{-1} = c + id$.
+
+Setze $x^{-1} = c + id$ und fordere $(a + ib)(c + id) = 1$. Ausmultiplizieren liefert
+
+$$(a + ib)(c + id) = (ac - bd) + i(ad + bc)$$
+
+Vergleich von Real- und Imaginärteil ergibt das Gleichungssystem
+
+$$
+\begin{align*}
+ac - bd &= 1 \\
+ad + bc &= 0
+\end{align*}
+$$
+
+Lösen (z.B. über die Standardrechnung mit Konjugation) ergibt
+
+$$
+c = \frac{a}{a^2 + b^2}, \quad d = -\frac{b}{a^2 + b^2}
+$$
+
+und damit
+
+$$
+\begin{align*}
+x^{-1} &= \frac{a}{a^2 + b^2} - i\frac{b}{a^2 + b^2} \\
+&= \frac{a - ib}{a^2 + b^2} &&\square
+\end{align*}
+$$
+
+Da $x \neq 0$ ist, gilt $a^2 + b^2 \gt 0$, der Nenner ist also nicht $0$.

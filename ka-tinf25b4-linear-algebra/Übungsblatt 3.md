@@ -128,7 +128,25 @@ $$
 
 Beweis:
 
-TODO
+Wir zeigen die Kontraposition. Angenommen $\lambda \neq 0_k$. Dann ist $\lambda$ in $K$ invertierbar, es existiert also $\lambda^{-1} \in K$ mit $\lambda^{-1}\lambda = 1$.
+
+Aus $\lambda \cdot v = 0_v$ folgt durch Skalarmultiplikation mit $\lambda^{-1}$:
+
+$$
+\begin{align*}
+\lambda^{-1} \cdot (\lambda \cdot v) &= \lambda^{-1} \cdot 0_v \\
+(\lambda^{-1}\lambda) \cdot v &= \lambda^{-1} \cdot 0_v &||\text{Assoziativität der Skalarmultiplikation} \\
+1 \cdot v &= \lambda^{-1} \cdot 0_v &||\lambda^{-1}\lambda = 1 \\
+v &= 0_v &||\text{Teil b)} \\
+&&\square
+\end{align*}
+$$
+
+Damit gilt: Ist $\lambda \neq 0_k$ und $\lambda \cdot v = 0_v$, dann folgt $v = 0_v$. Äquivalent formuliert:
+
+$$
+\lambda \cdot v = 0_v \Rightarrow \lambda = 0_k \lor v = 0_v
+$$
 
 ---
 

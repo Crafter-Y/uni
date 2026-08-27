@@ -170,10 +170,69 @@ $im(f)$ ist die Menge aller Werte, die von der Abbildung getroffen werden. Die S
 
 Bijektivität ist gegeben, wenn jeder Wert im Wertebereich genau einmal getroffen wird. Also injektivität und surjektivität besteht. Dafür muss jeder Wert im Wertebereich von genau einem Wert im Definitionsbereich getroffen werden. Also für jeden Wert im Wertebereich gibt es genau einen Wert im Definitionsbereich, der auf den Wert im Wertebereich abgebildet wird.
 
+---
+
 7.
 
-TODO
+Zu zeigen: Für eine endliche Menge $X$ und $f: X \to X$ sind (i) $f$ injektiv, (ii) $f$ surjektiv und (iii) $f$ bijektiv äquivalent.
+
+(iii) $\Rightarrow$ (i) und (iii) $\Rightarrow$ (ii) sind klar, da Bijektivität beides beinhaltet. Es reicht also, (i) $\Rightarrow$ (ii) und (ii) $\Rightarrow$ (i) zu zeigen.
+
+**(i) $\Rightarrow$ (ii)**
+
+Sei $f$ injektiv. Dann sind die Werte $f(x)$ für $x \in X$ paarweise verschieden, die Bildmenge $im(f)$ hat also genauso viele Elemente wie $X$, nämlich $|X|$. Da stets $im(f) \subseteq X$ gilt und $X$ endlich ist, folgt aus $|im(f)| = |X|$ schon $im(f) = X$. Also ist $f$ surjektiv.
+
+**(ii) $\Rightarrow$ (i)**
+
+Sei $f$ surjektiv, also $im(f) = X$ und damit $|im(f)| = |X|$. Wäre $f$ nicht injektiv, gäbe es $x \neq y$ mit $f(x) = f(y)$. Dann würden mindestens zwei Elemente auf denselben Wert abgebildet, die Bildmenge könnte also nicht $|X|$ verschiedene Werte enthalten — Widerspruch zu $|im(f)| = |X|$. Also ist $f$ injektiv.
+
+Damit sind (i), (ii) und (iii) äquivalent. $\square$
+
+---
 
 8.
 
-TODO
+Zu zeigen: $f: X \to Y$ ist genau dann bijektiv, wenn es eine Abbildung $g: Y \to X$ gibt mit $f \circ g = \mathrm{id}_Y$ und $g \circ f = \mathrm{id}_X$.
+
+**"$\Rightarrow$"**
+
+Sei $f$ bijektiv. Dann besitzt $f$ eine Umkehrabbildung $f^{-1}: Y \to X$. Setze $g := f^{-1}$. Definitionsgemäß gilt dann für alle $y \in Y$
+
+$$(f \circ g)(y) = f(f^{-1}(y)) = y$$
+
+also $f \circ g = \mathrm{id}_Y$, und für alle $x \in X$
+
+$$(g \circ f)(x) = f^{-1}(f(x)) = x$$
+
+also $g \circ f = \mathrm{id}_X$.
+
+**"$\Leftarrow$"**
+
+Sei umgekehrt $g: Y \to X$ mit $f \circ g = \mathrm{id}_Y$ und $g \circ f = \mathrm{id}_X$.
+
+Surjektivität von $f$: Sei $y \in Y$. Setze $x := g(y) \in X$. Dann gilt
+
+$$
+\begin{align*}
+f(x) &= f(g(y)) \\
+&= (f \circ g)(y) \\
+&= \mathrm{id}_Y(y) \\
+&= y
+\end{align*}
+$$
+
+Also trifft $f$ jedes $y \in Y$ und ist damit surjektiv.
+
+Injektivität von $f$: Seien $x_1, x_2 \in X$ mit $f(x_1) = f(x_2)$. Wende $g$ auf beide Seiten an:
+
+$$
+\begin{align*}
+g(f(x_1)) &= g(f(x_2)) \\
+(g \circ f)(x_1) &= (g \circ f)(x_2) \\
+x_1 &= x_2 &&\square
+\end{align*}
+$$
+
+Im letzten Schritt wurde $g \circ f = \mathrm{id}_X$ benutzt. Also ist $f$ injektiv.
+
+Damit ist $f$ injektiv und surjektiv, also bijektiv.
