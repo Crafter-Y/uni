@@ -86,6 +86,8 @@ I may or may not post my transcripts here.
 
 ### KA-T25B4 Programmieren
 
+1. Semester
+
 - [2026-01-09.md](./ka-tinf25b4-programming/2026-01-12/2026-01-12.md)
 - [2026-01-19.md](./ka-tinf25b4-programming/2026-01-19/2026-01-19.md)
 - [2026-01-26.md](./ka-tinf25b4-programming/2026-01-26/2026-01-26.md)
@@ -97,6 +99,9 @@ I may or may not post my transcripts here.
 - [2026-03-02.md](./ka-tinf25b4-programming/2026-03-02/2026-03-02.md)
 - [2026-03-09.md](./ka-tinf25b4-programming/2026-03-09/2026-03-09.md)
 - [2026-03-16.md](./ka-tinf25b4-programming/2026-03-16/2026-03-16.md) (Probeklausur)
+
+2. Semester
+
 - [2026-05-04.md](./ka-tinf25b4-programming/2026-05-04/2026-05-04.md)
 - [2026-05-08.md](./ka-tinf25b4-programming/2026-05-08/2026-05-08.md)
 - [2026-05-11.md](./ka-tinf25b4-programming/2026-05-11/2026-05-11.md)
@@ -106,6 +111,8 @@ I may or may not post my transcripts here.
 - [2026-06-08.md](./ka-tinf25b4-programming/2026-06-08/2026-06-08.md)
 - [2026-06-15.md](./ka-tinf25b4-programming/2026-06-15/2026-06-15.md)
 - [2026-06-22.md](./ka-tinf25b4-programming/2026-06-22/2026-06-22.md)
+- [2026-07-06.md](./ka-tinf25b4-programming/2026-07-06/2026-07-06.md) (Probeklausur)
+- [2026-07-13.md](./ka-tinf25b4-programming/2026-07-13/2026-07-13.md) (Probeklausur)
 
 ### KA-T25B4 Theoretische Informatik
 
