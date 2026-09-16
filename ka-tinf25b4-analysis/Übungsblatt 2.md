@@ -20,7 +20,15 @@ $$
 
 b)
 
-TODO b,c
+$$
+3 + \frac{3}{4} + \frac{3}{16} + \dots = \sum_{k=0}^\infty 3 \cdot \Big(\frac{1}{4}\Big)^k = \frac{3}{1-\frac{1}{4}} = \frac{3}{\frac{3}{4}} = 4
+$$
+
+c)
+
+$$
+5^{-2} + 5^{-3} + 5^{-4} + \dots = \sum_{k=2}^\infty 5^{-k} = 5^{-2} \cdot \sum_{k=0}^\infty \Big(\frac{1}{5}\Big)^k = \frac{1}{25} \cdot \frac{1}{1-\frac{1}{5}} = \frac{1}{25} \cdot \frac{5}{4} = \frac{1}{20}
+$$
 
 ---
 
@@ -28,7 +36,7 @@ TODO b,c
 
 $$
 \begin{align*}
-\lim_{n \rightarrow \infty} 0.\underbrace{999 \dots 9}_{n} &= 0.9 + 0.09 + 0.09 + \dots \\
+\lim_{n \rightarrow \infty} 0.\underbrace{999 \dots 9}_{n} &= 0.9 + 0.09 + 0.009 + \dots \\
 &= 0.9 \cdot (1 + \frac{1}{10} + \frac{1}{100} + \dots) \\
 &= 0.9 \cdot \sum_{k=0}^\infty (\frac{1}{10})^k \\
 &= \frac{9}{10} \cdot (\frac{1}{1-\frac{1}{10}}) \\
@@ -47,7 +55,7 @@ $$
 &= \frac{12}{100} \cdot (1+ \frac{1}{100} + \frac{1}{10000} + \dots) \\
 &= \frac{12}{100} \cdot \sum_{k=0}^\infty (\frac{1}{100})^k \\
 &= \frac{12}{100} \cdot \frac{1}{1- \frac{1}{100}} \\
-&= \frac{12}{99}
+&= \frac{12}{99} = \frac{4}{33}
 \end{align*}
 $$
 
@@ -109,18 +117,21 @@ $$
 a)
 
 $$
-S_a = \sum_{k=1}^\infty \frac{(x+1)^k}{k} = \sum_{k=1}^\infty \frac{(x-10)^k}{k}
+S_a = \sum_{k=1}^\infty \frac{(x-1)^k}{k} = \sum_{k=1}^\infty \frac{1}{k} \cdot (x-1)^k
 $$
 
-EP: $x_0 = 1$
+Entwicklungspunkt $x_0 = 1$
 
 $$
-= \sum_{k=1}^\infty \frac{1}{k}(x - 2)^k
+\begin{align*}
+R &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
+&= \lim_{k \rightarrow \infty} \Big| \frac{\frac{1}{k}}{\frac{1}{k+1}} \Big| \\
+&= \lim_{k \rightarrow \infty} \frac{k+1}{k} \\
+&= 1
+\end{align*}
 $$
 
-$1 \le x \lt 3$
-
-R=1
+Konvergenzbereich also $0 \lt x \lt 2$
 
 b)
 
@@ -132,7 +143,7 @@ Entwicklungspunkt $x_0 = 0$
 
 $$
 \begin{align*}
-r &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
+R &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
 &= \lim_{k \rightarrow \infty} \frac{1}{k!} \cdot \frac{(k+1)!}{1} \\
 &= \lim_{k \rightarrow \infty} \frac{(k+1)\cdot k!}{k!} \\
 &= \lim_{k \rightarrow \infty} k+1 \\
@@ -146,11 +157,11 @@ Entwicklungspunkt $x_0 = 0$
 
 
 $$
-\sum_{k=0}^\infty x^k = \sum_{k=0}^\infty \underbrace{1}_{s_n} \cdot x^k 
+\sum_{k=0}^\infty x^k = \sum_{k=0}^\infty \underbrace{1}_{s_n} \cdot x^k
 $$
 
 $$
-r = \lim_{k \rightarrow \infty} 1 = 0
+R = \lim_{k \rightarrow \infty} \frac{1}{\sqrt[k]{|a_k|}} = \lim_{k \rightarrow \infty} \frac{1}{\sqrt[k]{1}} = 1
 $$
 
 d)
@@ -159,10 +170,20 @@ Entwicklungspunkt $x_0 = 0$
 
 $$
 \begin{align*}
-r &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
+R &= \lim_{k \rightarrow \infty} \Big| \frac{a_k}{a_{k+1}} \Big| \\
 &= \lim_{k \rightarrow \infty} \frac{1}{k^2} \cdot \frac{(k+1)^2}{1} \\
-&= \lim_{k \rightarrow \infty} \frac{(k+1)^2}{k^2} \\ 
+&= \lim_{k \rightarrow \infty} \frac{(k+1)^2}{k^2} \\
 &= \lim_{k \rightarrow \infty} \frac{k^2 + 2k + 1}{k^2} \\
 &= 1
 \end{align*}
 $$
+
+---
+
+Zusatz: Verhalten auf dem Rand $x = \pm R$ für c) und d)
+
+> Der Konvergenzradius beschreibt ein offenes Intervall, über die Randpunkte sagen die Kriterien nichts aus.
+
+c) Für $x = 1$ ist $\sum_{k=0}^\infty 1$ divergent, für $x = -1$ oszilliert $\sum_{k=0}^\infty (-1)^k$. Beide Ränder divergieren, der Konvergenzbereich ist also das offene Intervall $(-1,1)$.
+
+d) Für $x = 1$ ist $\sum_{k=1}^\infty \frac{1}{k^2}$ konvergent, für $x = -1$ ist $\sum_{k=1}^\infty \frac{(-1)^k}{k^2}$ (absolut) konvergent. Beide Ränder konvergieren, der Konvergenzbereich ist also das abgeschlossene Intervall $[-1,1]$.

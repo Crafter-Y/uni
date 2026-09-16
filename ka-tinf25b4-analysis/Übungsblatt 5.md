@@ -103,18 +103,20 @@ $$
 3.
 
 $$
-\int \frac{f'(x)}{f(x)}dx = \int \frac{1}{f(x)} \cdot \frac{f'(x) dx}{dt}
+\int \frac{f'(x)}{f(x)}dx
 $$
 
-$f(x) = t$
+Substitution $t = f(x)$:
 
 $\frac{dt}{dx} = f'(x)$
 
 $\Rightarrow dt = f'(x) \cdot dx$
 
 $$
-\stackrel{Subst}{=} \int \frac{1}{t} \cdot dt = ln \space t + c
+\stackrel{Subst}{=} \int \frac{1}{t} \space dt = ln|t| + c = ln|f(x)| + c
 $$
+
+---
 
 4.
 
@@ -122,10 +124,10 @@ a)
 
 $$
 \begin{align*}
-\int_1^\infty \frac{1}{x^2} dx \\
-\newline
-\frac{1}{x^2} = x^{-2} \Rightarrow -x^{-1} \\
-\rightarrow 1
+\int_1^\infty \frac{1}{x^2} dx = \lim_{b \rightarrow \infty} \int_1^b x^{-2} dx \\
+= \lim_{b \rightarrow \infty} \Bigg[ -\frac{1}{x} \Bigg]_1^b \\
+= \lim_{b \rightarrow \infty} \Big( -\frac{1}{b} + 1 \Big) \\
+= 1
 \end{align*}
 $$
 
@@ -133,8 +135,9 @@ b)
 
 $$
 \begin{align*}
-\int_0^\infty e^{-x} dx = \Bigg[ -e^{-x} \Bigg]_0^\infty \\
-= 1 \cdot e^0 - 0 = 1
+\int_0^\infty e^{-x} dx = \lim_{b \rightarrow \infty} \Bigg[ -e^{-x} \Bigg]_0^b \\
+= \lim_{b \rightarrow \infty} \big( -e^{-b} + e^0 \big) \\
+= 0 + 1 = 1
 \end{align*}
 $$
 
@@ -155,9 +158,9 @@ a+b = 0 \\
 \Rightarrow a = -1 \\
 \Rightarrow b = 1 \\
 \newline
-\int_2^\infty -\frac{1}{x} + \frac{1}{x-1} \space dx = 
+\int_2^\infty -\frac{1}{x} + \frac{1}{x-1} \space dx =
 \Bigg[ -ln \space x + ln(x-1) \Bigg]_2^\infty \\
-= \lim_{b \rightarrow \infty} \Bigg[ -ln \space x + ln(x-1) \Bigg]_2^\infty \\
+= \lim_{b \rightarrow \infty} \Bigg[ -ln \space x + ln(x-1) \Bigg]_2^b \\
 = \lim_{b \rightarrow \infty}-ln b + ln (b-1) + ln 2 - ln 1 \\
 = \lim_{b \rightarrow \infty}ln(b-1) - ln b + ln 2 \\
 = \lim_{b \rightarrow \infty} ln \frac{b-1}{b} + ln 2 \\
@@ -183,7 +186,7 @@ $$
 \begin{align*}
 \int_0^1 x \cdot e^x \space dx \\
 = \Bigg[ x \cdot e^x \Bigg]_0^1 - \int_0^1 e^x \space dx \\
-= \Bigg[ e^x \Bigg]_0^1 \\
+= \Bigg[ x \cdot e^x \Bigg]_0^1 - \Bigg[ e^x \Bigg]_0^1 \\
 = e^1 - 0 - e^1 + e^0 = 1
 \end{align*}
 $$
@@ -194,7 +197,7 @@ $$
 \begin{align*}
 \int_0^1 x \cdot e^{x^2-1} \space dx \\
 = \Bigg[ \frac{1}{2} e^{x^2-1} \Bigg]_0^1 \\
-= \frac{1}{2} e^0 - \frac{1}{2} e^{-1} = \frac{1}{2}(1-\frac{1}{e}) 
+= \frac{1}{2} e^0 - \frac{1}{2} e^{-1} = \frac{1}{2}(1-\frac{1}{e})
 \end{align*}
 $$
 
@@ -208,7 +211,7 @@ t(0) = 0-1 = -1 \\
 t(1) = 1^2-1 = 0 \\
 \newline
 \int_0^1 \underbrace{e^{x^2-1}}_{e^t} \frac{1}{2} \underbrace{\cdot 2x \space dx}_{dt} \\
-\int_{-1}^0 e^t dt = \Bigg[ e^t \Bigg]_{-1}^0 = \frac{1}{2} (e^0 - e^{-1}) \\
+= \frac{1}{2} \int_{-1}^0 e^t dt = \frac{1}{2} \Bigg[ e^t \Bigg]_{-1}^0 = \frac{1}{2} (e^0 - e^{-1}) \\
 = \frac{1}{2} (1- \frac{1}{e})
 \end{align*}
 $$
@@ -217,11 +220,10 @@ g)
 
 $$
 \begin{align*}
-\int_0^1 ln(x) \space dx = \int_0^1 1 \cdot ln x \space dx \\
-= \Bigg[ x \cdot ln \space x \Bigg]_0^1 - \int_0^1 x \cdot \frac{1}{x} dx \\
-= \Bigg[ x \cdot ln \space x \Bigg]_0^1 - \Bigg[ x \Bigg]_0^1 \\
-= \Bigg[ x(ln \space x -1) \Bigg]_0^1 \\
-= 1 \cdot (ln \space 1 - 1) - 0 \cdot (ln \space 0 - 1) \\
-= 0 - 1 - 0 + 0 = -1
+\int_0^1 ln(x) \space dx = \lim_{a \rightarrow 0^+} \int_a^1 1 \cdot ln \space x \space dx \\
+= \lim_{a \rightarrow 0^+} \Bigg( \Bigg[ x \cdot ln \space x \Bigg]_a^1 - \int_a^1 x \cdot \frac{1}{x} dx \Bigg) \\
+= \lim_{a \rightarrow 0^+} \Bigg[ x(ln \space x -1) \Bigg]_a^1 \\
+= \lim_{a \rightarrow 0^+} \big( 1 \cdot (ln \space 1 - 1) - a \cdot (ln \space a - 1) \big) \\
+= -1 - 0 = -1
 \end{align*}
 $$

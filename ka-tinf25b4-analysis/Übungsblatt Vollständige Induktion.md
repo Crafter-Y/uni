@@ -40,7 +40,7 @@ Induktionschritt:
 Zu zeigen:
 
 $$
-\sum_{k=1}^{n+1} k^2 \stackrel{!}{=} \frac{(n+1)((n+1)+1)(2(n+1)+1)}{6} = \frac{2(n+1)(n+2)(n+\frac{3}{2})}{6} 
+\sum_{k=1}^{n+1} k^2 \stackrel{!}{=} \frac{(n+1)((n+1)+1)(2(n+1)+1)}{6} = \frac{2(n+1)(n+2)(n+\frac{3}{2})}{6}
 $$
 
 Beweis:
@@ -63,7 +63,56 @@ $$
 
 2.
 
-TODO
+$$
+1^3+2^3+3^3 + \dots + n^3 \stackrel{!}{=} \Big( \frac{n(n+1)}{2} \Big)^2
+$$
+
+Anders formuliert:
+
+$$
+\sum_{k=1}^n k^3 \stackrel{!}{=} \Big( \frac{n(n+1)}{2} \Big)^2
+$$
+
+Induktionsanfang: ($n=1$)
+
+$$
+\begin{align*}
+\sum_{k=1}^1 k^3 &\stackrel{!}{=} \Big( \frac{1 \cdot 2}{2} \Big)^2 \\
+1 &= 1 \\
+&&\square
+\end{align*}
+$$
+
+Induktionsvoraussetzung:
+
+Es gilt:
+
+$$
+\sum_{k=1}^n k^3 = \Big( \frac{n(n+1)}{2} \Big)^2
+$$
+
+Induktionsschritt:
+
+Zu zeigen:
+
+$$
+\sum_{k=1}^{n+1} k^3 \stackrel{!}{=} \Big( \frac{(n+1)(n+2)}{2} \Big)^2
+$$
+
+Beweis:
+
+$$
+\begin{align*}
+\sum_{k=1}^{n+1} k^3 &= \Big( \sum_{k=1}^n k^3 \Big) + (n+1)^3 \\
+&= \Big( \frac{n(n+1)}{2} \Big)^2 + (n+1)^3 \\
+&= (n+1)^2 \Big( \frac{n^2}{4} + (n+1) \Big) \\
+&= (n+1)^2 \Big( \frac{n^2}{4} + \frac{4(n+1)}{4} \Big) \\
+&= (n+1)^2 \cdot \frac{n^2+4n+4}{4} \\
+&= (n+1)^2 \cdot \frac{(n+2)^2}{4} \\
+&= \Big( \frac{(n+1)(n+2)}{2} \Big)^2 \\
+&&\square
+\end{align*}
+$$
 
 ---
 
@@ -100,8 +149,8 @@ $$
 7^{n+1} - 4^{n+1} &= 7 \cdot 7^n - 4 \cdot 4^n \\
 &= 3 \cdot 7^n + 7^n + 7^n + 7^n + 7^n - 4^n - 4^n - 4^n - 4^n \\
 &= 3 \cdot 7^n + (7^n - 4^n) + (7^n - 4^n) + (7^n - 4^n) + (7^n - 4^n )\\
-&= 3 \cdot 7^n + 4 \cdot 3m \\
-&= 3 \cdot \underbrace{( 7^n + 4m )}_{k \in \mathbb{N}}\\
+&= 3 \cdot 7^n + 4 \cdot 3k \\
+&= 3 \cdot \underbrace{( 7^n + 4k )}_{\in \mathbb{N}}\\
 && \square
 \end{align*}
 $$
@@ -166,8 +215,7 @@ $$
 (1+x)(1+x)^n \stackrel{!}{\ge} 1+ x + n \cdot x \\
 (1+x)(1+x)^n \ge (1+x)(1+n\cdot x) \stackrel{!}{\ge} 1+ x + n \cdot x \\
 1+n \cdot x + x + n \cdot x^2 \stackrel{!}{\ge}  1 + x + n \cdot x \\
-x+n^2 \ge x \\
-nx^2 \ge 0 \\
+n \cdot x^2 \ge 0 \\
 &&\square
 \end{align*}
 $$
