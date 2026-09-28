@@ -191,6 +191,10 @@ I may or may not post my transcripts here.
 - [2026-07-02.md](./ka-tinf25b4-marketing/2026-07-02.md)
 - [2026-07-09.md](./ka-tinf25b4-marketing/2026-07-09.md)
 
+### KA-TINF25B4 Numerik
+
+- [2026-09-28.md](./ka-tinf25b4-numerik/2026-09-28.md)
+
 ### Incredible Proof Machine
 
 - [Incredible Proof Machine.md](./incredible-proof-machine/Incredible%20Proof%20Machine.md) (Solutions)
