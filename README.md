@@ -195,6 +195,10 @@ I may or may not post my transcripts here.
 
 - [2026-09-28.md](./ka-tinf25b4-numerik/2026-09-28.md)
 
+### KA-TINF25B4 IT Security
+
+- [Lab 1](./ka-tinf25b4-it-security/ws1.md)
+
 ### Incredible Proof Machine
 
 - [Incredible Proof Machine.md](./incredible-proof-machine/Incredible%20Proof%20Machine.md) (Solutions)
