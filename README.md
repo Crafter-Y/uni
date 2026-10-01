@@ -113,6 +113,7 @@ I may or may not post my transcripts here.
 - [2026-06-22.md](./ka-tinf25b4-programming/2026-06-22/2026-06-22.md)
 - [2026-07-06.md](./ka-tinf25b4-programming/2026-07-06/2026-07-06.md) (Probeklausur)
 - [2026-07-13.md](./ka-tinf25b4-programming/2026-07-13/2026-07-13.md) (Probeklausur)
+- [SnatChat](/ka-tinf25b4-programming/2026-10-01/snatchat/SnatChat.java) (Probeklausur)
 
 ### KA-T25B4 Theoretische Informatik
 
