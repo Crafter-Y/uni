@@ -195,6 +195,7 @@ I may or may not post my transcripts here.
 ### KA-TINF25B4 Numerik
 
 - [2026-09-28.md](./ka-tinf25b4-numerik/2026-09-28.md)
+- [2026-10-05.md](./ka-tinf25b4-numerik/2026-10-05.md)
 
 ### KA-TINF25B4 IT Security
 
